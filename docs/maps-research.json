@@ -1,0 +1,838 @@
+[
+ {
+  "layer": "Models and inference",
+  "additions": [
+   {
+    "segment": "Frontier model APIs",
+    "vendors": [
+     {
+      "name": "xAI",
+      "domain": "x.ai"
+     },
+     {
+      "name": "Cohere",
+      "domain": "cohere.com"
+     },
+     {
+      "name": "Amazon (Nova)",
+      "domain": "aws.amazon.com"
+     }
+    ]
+   },
+   {
+    "segment": "Open-weights families",
+    "vendors": [
+     {
+      "name": "Moonshot AI (Kimi)",
+      "domain": "moonshot.ai"
+     },
+     {
+      "name": "Z.ai (Zhipu GLM)",
+      "domain": "z.ai"
+     },
+     {
+      "name": "MiniMax",
+      "domain": "minimax.io"
+     }
+    ]
+   },
+   {
+    "segment": "Gateways and routing",
+    "vendors": [
+     {
+      "name": "Vercel AI Gateway",
+      "domain": "vercel.com"
+     },
+     {
+      "name": "Helicone",
+      "domain": "helicone.ai"
+     },
+     {
+      "name": "TrueFoundry",
+      "domain": "truefoundry.com"
+     }
+    ]
+   },
+   {
+    "segment": "Serving and tuning",
+    "vendors": [
+     {
+      "name": "Baseten",
+      "domain": "baseten.co"
+     },
+     {
+      "name": "Modal",
+      "domain": "modal.com"
+     },
+     {
+      "name": "Cerebras",
+      "domain": "cerebras.ai"
+     },
+     {
+      "name": "SambaNova",
+      "domain": "sambanova.ai"
+     }
+    ]
+   }
+  ],
+  "map_sources": [
+   "https://menlovc.com/perspective/2025-mid-year-llm-market-update/",
+   "https://menlovc.com/perspective/2025-the-state-of-generative-ai-in-the-enterprise/",
+   "https://mad.firstmark.com/",
+   "https://github.com/joylarkin/Awesome-AI-Market-Maps",
+   "https://www.braintrust.dev/articles/ai-gateway-comparison-2026"
+  ],
+  "new_segment_idea": "GPU / neocloud compute providers (CoreWeave, Nebius, Lambda, Crusoe) \u2014 carved as a distinct segment beneath serving on the FirstMark MAD and Menlo infrastructure maps"
+ },
+ {
+  "layer": "Orchestration and architecture",
+  "additions": [
+   {
+    "segment": "Code-first agent frameworks",
+    "vendors": [
+     {
+      "name": "Google ADK",
+      "domain": "google.com"
+     },
+     {
+      "name": "Mastra",
+      "domain": "mastra.ai"
+     },
+     {
+      "name": "smolagents (Hugging Face)",
+      "domain": "huggingface.co"
+     },
+     {
+      "name": "Agno",
+      "domain": "agno.com"
+     }
+    ]
+   },
+   {
+    "segment": "Agent runtimes",
+    "vendors": [
+     {
+      "name": "Amazon Bedrock AgentCore",
+      "domain": "aws.amazon.com"
+     },
+     {
+      "name": "Vertex AI Agent Engine",
+      "domain": "cloud.google.com"
+     },
+     {
+      "name": "Letta",
+      "domain": "letta.com"
+     },
+     {
+      "name": "E2B",
+      "domain": "e2b.dev"
+     }
+    ]
+   },
+   {
+    "segment": "Deterministic rails",
+    "vendors": [
+     {
+      "name": "Inngest",
+      "domain": "inngest.com"
+     },
+     {
+      "name": "Restate",
+      "domain": "restate.dev"
+     },
+     {
+      "name": "Dagster",
+      "domain": "dagster.io"
+     },
+     {
+      "name": "Make",
+      "domain": "make.com"
+     }
+    ]
+   },
+   {
+    "segment": "Suite agent platforms",
+    "vendors": [
+     {
+      "name": "SAP Joule",
+      "domain": "sap.com"
+     },
+     {
+      "name": "Google Gemini Enterprise",
+      "domain": "google.com"
+     },
+     {
+      "name": "IBM watsonx Orchestrate",
+      "domain": "ibm.com"
+     },
+     {
+      "name": "Workday",
+      "domain": "workday.com"
+     }
+    ]
+   }
+  ],
+  "new_segment_idea": "No-code/visual agent builders (Dify, Relevance AI, StackAI, Lindy) \u2014 published maps (CB Insights, MAD) consistently carve a builder tier between code-first frameworks and suite platforms",
+  "map_sources": [
+   "https://menlovc.com/perspective/2025-the-state-of-generative-ai-in-the-enterprise/",
+   "https://www.oreilly.com/radar/the-ai-agents-stack-2026-edition/",
+   "https://www.cbinsights.com/research/ai-agent-tech-stack/",
+   "https://mad.firstmark.com/",
+   "https://github.com/joylarkin/Awesome-AI-Market-Maps"
+  ]
+ },
+ {
+  "layer": "Knowledge, context, and memory",
+  "additions": [
+   {
+    "segment": "Vector and hybrid stores",
+    "vendors": [
+     {
+      "name": "Chroma",
+      "domain": "trychroma.com"
+     },
+     {
+      "name": "Milvus (Zilliz)",
+      "domain": "zilliz.com"
+     },
+     {
+      "name": "LanceDB",
+      "domain": "lancedb.com"
+     },
+     {
+      "name": "turbopuffer",
+      "domain": "turbopuffer.com"
+     }
+    ]
+   },
+   {
+    "segment": "Enterprise index and search",
+    "vendors": [
+     {
+      "name": "Coveo",
+      "domain": "coveo.com"
+     },
+     {
+      "name": "Onyx (ex-Danswer)",
+      "domain": "onyx.app"
+     },
+     {
+      "name": "Sinequa",
+      "domain": "sinequa.com"
+     }
+    ]
+   },
+   {
+    "segment": "Graph and structured context",
+    "vendors": [
+     {
+      "name": "Memgraph",
+      "domain": "memgraph.com"
+     },
+     {
+      "name": "FalkorDB",
+      "domain": "falkordb.com"
+     },
+     {
+      "name": "Ontotext (Graphwise)",
+      "domain": "ontotext.com"
+     }
+    ]
+   },
+   {
+    "segment": "Agent memory layers",
+    "vendors": [
+     {
+      "name": "Supermemory",
+      "domain": "supermemory.ai"
+     }
+    ]
+   }
+  ],
+  "map_sources": [
+   "CB Insights \u2014 The AI agent tech stack (Context layer: LLM data preparation, vector databases, memory management), cbinsights.com/research/ai-agent-tech-stack/",
+   "CB Insights \u2014 The AI agent market map (400+ startups, 16 categories; Memory = 19-company emerging market), cbinsights.com/research/ai-agent-market-map-2025/",
+   "FirstMark \u2014 2025 MAD (ML/AI/Data) Landscape by Matt Turck, mad.firstmark.com",
+   "Menlo Ventures \u2014 AI Agents: A New Architecture for Enterprise Automation (memory as one of four agent building blocks), menlovc.com/perspective/ai-agents-a-new-architecture-for-enterprise-automation/",
+   "Awesome AI Market Maps (500+ maps index, 2025-2026), github.com/joylarkin/Awesome-AI-Market-Maps"
+  ],
+  "new_segment_idea": "Unstructured data ingestion and document parsing (context ETL) \u2014 carved by CB Insights as \"LLM data preparation platforms\"; candidate vendors: Unstructured (unstructured.io), Reducto (reducto.ai), Tensorlake (tensorlake.ai), LlamaIndex/LlamaParse (llamaindex.ai)"
+ },
+ {
+  "layer": "Tools and actions",
+  "additions": [
+   {
+    "segment": "Protocols and registries",
+    "vendors": [
+     {
+      "name": "Smithery",
+      "domain": "smithery.ai"
+     },
+     {
+      "name": "AGNTCY",
+      "domain": "agntcy.org"
+     },
+     {
+      "name": "AG-UI (CopilotKit)",
+      "domain": "ag-ui.com"
+     }
+    ]
+   },
+   {
+    "segment": "Integration platforms",
+    "vendors": [
+     {
+      "name": "Pipedream (Workday)",
+      "domain": "pipedream.com"
+     },
+     {
+      "name": "Arcade",
+      "domain": "arcade.dev"
+     },
+     {
+      "name": "Merge",
+      "domain": "merge.dev"
+     },
+     {
+      "name": "Paragon",
+      "domain": "useparagon.com"
+     }
+    ]
+   },
+   {
+    "segment": "Computer use and browsing",
+    "vendors": [
+     {
+      "name": "Browserbase (Stagehand)",
+      "domain": "browserbase.com"
+     },
+     {
+      "name": "Google Gemini Computer Use (Project Mariner)",
+      "domain": "google.com"
+     },
+     {
+      "name": "Skyvern",
+      "domain": "skyvern.com"
+     }
+    ]
+   },
+   {
+    "segment": "RPA bridge",
+    "vendors": [
+     {
+      "name": "Microsoft Power Automate",
+      "domain": "microsoft.com"
+     },
+     {
+      "name": "SS&C Blue Prism",
+      "domain": "blueprism.com"
+     }
+    ]
+   }
+  ],
+  "map_sources": [
+   "StackOne \u2014 AI Agent Tools Landscape 2026, 120+ tools across 11 categories (https://www.stackone.com/blog/ai-agent-tools-landscape-2026/)",
+   "CB Insights \u2014 AI agent market map, 400+ startups across 16 categories incl. 'AI agent browser infrastructure' and 'web search & tool use' (https://research.cbinsights.com/400-ai-agent-market-map)",
+   "FirstMark \u2014 MAD (Machine Learning, AI & Data) Landscape 2025, added explicit agent stack categories (https://firstmark.com/story/bubble-build-the-2025-mad-machine-learning-ai-data-landscape/)",
+   "Menlo Ventures \u2014 2025 The State of Generative AI in the Enterprise (https://menlovc.com/perspective/2025-the-state-of-generative-ai-in-the-enterprise/)",
+   "Awesome AI Market Maps \u2014 curated index of 500+ maps from 2025-2026 (https://github.com/joylarkin/Awesome-AI-Market-Maps)"
+  ],
+  "new_segment_idea": "Web search and data retrieval APIs for agents (Exa, Tavily, Firecrawl, Apify) \u2014 CB Insights carves this out as 'web search & tool use' and StackOne as 'browser use & web scraping', distinct from interactive computer-use/browsing agents"
+ },
+ {
+  "layer": "The last mile to systems that will never get an API",
+  "additions": [
+   {
+    "segment": "Frontier computer use",
+    "vendors": [
+     {
+      "name": "Google Gemini Computer Use",
+      "domain": "google.com"
+     },
+     {
+      "name": "Amazon Nova Act",
+      "domain": "amazon.com"
+     },
+     {
+      "name": "ByteDance UI-TARS",
+      "domain": "bytedance.com"
+     }
+    ]
+   },
+   {
+    "segment": "Open-source browser agents",
+    "vendors": [
+     {
+      "name": "Skyvern",
+      "domain": "skyvern.com"
+     },
+     {
+      "name": "Stagehand",
+      "domain": "stagehand.dev"
+     },
+     {
+      "name": "Browserbase",
+      "domain": "browserbase.com"
+     },
+     {
+      "name": "Steel",
+      "domain": "steel.dev"
+     }
+    ]
+   },
+   {
+    "segment": "Specialist challengers",
+    "vendors": [
+     {
+      "name": "TinyFish",
+      "domain": "tinyfish.ai"
+     },
+     {
+      "name": "Simular",
+      "domain": "simular.ai"
+     },
+     {
+      "name": "Manus",
+      "domain": "manus.im"
+     }
+    ]
+   },
+   {
+    "segment": "RPA estate under agent control",
+    "vendors": [
+     {
+      "name": "Microsoft Power Automate / Copilot Studio computer use",
+      "domain": "microsoft.com"
+     },
+     {
+      "name": "SS&C Blue Prism",
+      "domain": "blueprism.com"
+     },
+     {
+      "name": "Sema4.ai",
+      "domain": "sema4.ai"
+     }
+    ]
+   }
+  ],
+  "map_sources": [
+   "https://www.cbinsights.com/research/ai-agent-market-map/",
+   "https://menlovc.com/perspective/beyond-bots-how-ai-agents-are-driving-the-next-wave-of-enterprise-automation/",
+   "https://mad.firstmark.com/",
+   "https://thetasoftware.com/blog/market-map/",
+   "https://www.unbrowse.ai/blog/agentic-browser-wars-2026-landscape"
+  ],
+  "new_segment_idea": "Managed browser infrastructure for agents (cloud browsers, sandboxes, stealth/CAPTCHA handling \u2014 Browserbase, Steel, Hyperbrowser, E2B): published maps consistently split this infra tier from agent frameworks, whereas the report currently folds it into \"Open-source browser agents\""
+ },
+ {
+  "layer": "Identity, permissions, and security",
+  "additions": [
+   {
+    "segment": "Agent identity and access",
+    "vendors": [
+     {
+      "name": "Astrix Security",
+      "domain": "astrix.security"
+     },
+     {
+      "name": "Token Security",
+      "domain": "token.security"
+     },
+     {
+      "name": "Aembit",
+      "domain": "aembit.io"
+     },
+     {
+      "name": "Keycard",
+      "domain": "keycard.ai"
+     }
+    ]
+   },
+   {
+    "segment": "Guardrails and AI firewalls",
+    "vendors": [
+     {
+      "name": "Prompt Security (SentinelOne)",
+      "domain": "prompt.security"
+     },
+     {
+      "name": "Noma Security",
+      "domain": "noma.security"
+     },
+     {
+      "name": "HiddenLayer",
+      "domain": "hiddenlayer.com"
+     },
+     {
+      "name": "Guardrails AI",
+      "domain": "guardrailsai.com"
+     }
+    ]
+   },
+   {
+    "segment": "Containment and secrets",
+    "vendors": [
+     {
+      "name": "Daytona",
+      "domain": "daytona.io"
+     },
+     {
+      "name": "Modal",
+      "domain": "modal.com"
+     },
+     {
+      "name": "Infisical",
+      "domain": "infisical.com"
+     }
+    ]
+   },
+   {
+    "segment": "Standards and guidance",
+    "vendors": [
+     {
+      "name": "MITRE ATLAS",
+      "domain": "mitre.org"
+     },
+     {
+      "name": "Cloud Security Alliance",
+      "domain": "cloudsecurityalliance.org"
+     }
+    ]
+   }
+  ],
+  "map_sources": [
+   "Ansa - Agentic Security Market Landscape (ansa.co/insight/agentic-security-market-landscape)",
+   "Insight Partners - Securing the autonomous future: trust, safety, and reliability of agentic AI (insightpartners.com/ideas/securing-agentic-ai)",
+   "Menlo Ventures - Security for AI: The New Wave of Startups Racing to Secure the AI Stack (menlovc.com/perspective/security-for-ai-genai-risks-and-the-emerging-startup-landscape)",
+   "CB Insights - The AI Agent Market Map (cbinsights.com/research/ai-agent-market-map)",
+   "Awesome AI Market Maps, 500+ maps index (github.com/joylarkin/Awesome-AI-Market-Maps)"
+  ],
+  "new_segment_idea": "AI red teaming and security testing (carved out separately on Menlo's Security-for-AI map and Ansa's agentic security landscape): Promptfoo, Haize Labs, Straiker, SplxAI, Mindgard"
+ },
+ {
+  "layer": "Deployment and operations",
+  "additions": [
+   {
+    "segment": "Sandboxed runtimes",
+    "vendors": [
+     {
+      "name": "Runloop",
+      "domain": "runloop.ai"
+     },
+     {
+      "name": "Cloudflare Sandboxes",
+      "domain": "cloudflare.com"
+     },
+     {
+      "name": "Northflank",
+      "domain": "northflank.com"
+     },
+     {
+      "name": "Blaxel",
+      "domain": "blaxel.ai"
+     }
+    ]
+   },
+   {
+    "segment": "Cloud agent platforms",
+    "vendors": [
+     {
+      "name": "OpenAI AgentKit / Frontier",
+      "domain": "openai.com"
+     },
+     {
+      "name": "Databricks Agent Bricks",
+      "domain": "databricks.com"
+     },
+     {
+      "name": "Salesforce Agentforce",
+      "domain": "salesforce.com"
+     },
+     {
+      "name": "IBM watsonx Orchestrate",
+      "domain": "ibm.com"
+     }
+    ]
+   },
+   {
+    "segment": "Orchestrated infrastructure",
+    "vendors": [
+     {
+      "name": "Restate",
+      "domain": "restate.dev"
+     },
+     {
+      "name": "Inngest",
+      "domain": "inngest.com"
+     },
+     {
+      "name": "DBOS",
+      "domain": "dbos.dev"
+     },
+     {
+      "name": "Dapr Agents",
+      "domain": "dapr.io"
+     }
+    ]
+   },
+   {
+    "segment": "Human-gate mechanics",
+    "vendors": [
+     {
+      "name": "HumanLayer",
+      "domain": "humanlayer.dev"
+     },
+     {
+      "name": "gotoHuman",
+      "domain": "gotohuman.com"
+     }
+    ]
+   }
+  ],
+  "map_sources": [
+   "CB Insights \u2014 The AI agent tech stack (cbinsights.com/research/ai-agent-tech-stack/): 135+ startups across 17 markets, structured as infrastructure layers from foundation models through hosting, orchestration, sandboxing, and oversight",
+   "FirstMark \u2014 2025 MAD (ML/AI/Data) Landscape (mad.firstmark.com): agents + data/control plane as converging map sections, hyperscalers anchoring the edges",
+   "Insight Partners \u2014 AI automation & agents market map (insightpartners.com/ideas/ai-agents-disrupting-automation/): agentic automation architectures and orchestration (CrewAI backer)",
+   "joylarkin/Awesome-AI-Market-Maps (github.com): curated index of 500+ AI market maps from 2025-2026, including agent-infrastructure and sandbox categories",
+   "Vendor-published 2026 sandbox/agent-cloud landscapes: Northflank 'Best sandbox runners' and Blaxel 'Best cloud sandboxes for AI agents 2026' \u2014 both structure the layer as primitives vs embeddable runtimes vs managed platforms (E2B, Modal, Daytona, Runloop, Cloudflare)"
+  ],
+  "new_segment_idea": "Agent browser infrastructure (headless browsers-as-a-service for agent web actions: Browserbase, Anchor Browser, Hyperbrowser, Kernel) \u2014 carved out as its own category in CB Insights' agent tech stack and 2026 infrastructure comparisons, distinct from code-execution sandboxes"
+ },
+ {
+  "layer": "Observability and cost",
+  "additions": [
+   {
+    "segment": "LLM observability, open source",
+    "vendors": [
+     {
+      "name": "Comet Opik",
+      "domain": "comet.com"
+     },
+     {
+      "name": "OpenLIT",
+      "domain": "openlit.io"
+     },
+     {
+      "name": "Lunary",
+      "domain": "lunary.ai"
+     }
+    ]
+   },
+   {
+    "segment": "LLM observability, SaaS",
+    "vendors": [
+     {
+      "name": "Arize AX",
+      "domain": "arize.com"
+     },
+     {
+      "name": "Fiddler AI",
+      "domain": "fiddler.ai"
+     },
+     {
+      "name": "HoneyHive",
+      "domain": "honeyhive.ai"
+     },
+     {
+      "name": "AgentOps",
+      "domain": "agentops.ai"
+     }
+    ]
+   },
+   {
+    "segment": "APM-integrated",
+    "vendors": [
+     {
+      "name": "New Relic AI Monitoring",
+      "domain": "newrelic.com"
+     },
+     {
+      "name": "Dynatrace",
+      "domain": "dynatrace.com"
+     },
+     {
+      "name": "Grafana Cloud AI Observability",
+      "domain": "grafana.com"
+     },
+     {
+      "name": "Coralogix AI Center",
+      "domain": "coralogix.com"
+     }
+    ]
+   },
+   {
+    "segment": "Standards and AI FinOps",
+    "vendors": [
+     {
+      "name": "Vantage",
+      "domain": "vantage.sh"
+     },
+     {
+      "name": "CloudZero",
+      "domain": "cloudzero.com"
+     },
+     {
+      "name": "Pay-i",
+      "domain": "pay-i.com"
+     },
+     {
+      "name": "Finout",
+      "domain": "finout.io"
+     }
+    ]
+   }
+  ],
+  "map_sources": [
+   "https://github.com/joylarkin/Awesome-AI-Market-Maps (500+ AI market maps index, 2025-2026)",
+   "CB Insights AI agent market map (cbinsights.com/research/ai-agent-market-map/) \u2014 carves an 'agent evaluation & observability' category and notes 2025 M&A in it",
+   "FirstMark MAD ML/AI/Data Landscape 2025 (mad.firstmark.com; mattturck.com/mad2025) \u2014 dedicated 'AI Observability' category plus explicit agent-stack sections",
+   "Gartner Market Guide for AI Evaluation and Observability Platforms (2026) \u2014 pairs evaluation with observability as one category (includes Comet/Opik)",
+   "Menlo Ventures 2025 Mid-Year LLM Market Update (menlovc.com/perspective/2025-mid-year-llm-market-update/) \u2014 economics/spend framing for the cost side"
+  ],
+  "new_segment_idea": "Agent/LLM evaluation platforms \u2014 Gartner ('AI Evaluation and Observability Platforms') and CB Insights ('agent evaluation & observability') both fuse evals with observability as one category; if no other layer of the report covers evals, add a segment with e.g. Patronus AI (patronus.ai), Confident AI/DeepEval (confident-ai.com), Maxim AI (getmaxim.ai). Also note: WhyLabs was acquired by Apple in Jan 2025 and its commercial platform was retired \u2014 consider dropping it from the SaaS segment."
+ },
+ {
+  "layer": "Evals and improvement",
+  "additions": [
+   {
+    "segment": "Eval platforms",
+    "vendors": [
+     {
+      "name": "Arize",
+      "domain": "arize.com"
+     },
+     {
+      "name": "Patronus AI",
+      "domain": "patronus.ai"
+     },
+     {
+      "name": "Comet Opik",
+      "domain": "comet.com"
+     },
+     {
+      "name": "Datadog LLM Observability",
+      "domain": "datadoghq.com"
+     }
+    ]
+   },
+   {
+    "segment": "Open-source harnesses",
+    "vendors": [
+     {
+      "name": "MLflow",
+      "domain": "mlflow.org"
+     },
+     {
+      "name": "TruLens",
+      "domain": "trulens.org"
+     },
+     {
+      "name": "Inspect (UK AISI)",
+      "domain": "aisi.gov.uk"
+     }
+    ]
+   },
+   {
+    "segment": "Tuning and RL loops",
+    "vendors": [
+     {
+      "name": "OpenPipe (CoreWeave)",
+      "domain": "openpipe.ai"
+     },
+     {
+      "name": "Tinker (Thinking Machines)",
+      "domain": "thinkingmachines.ai"
+     },
+     {
+      "name": "Fireworks AI",
+      "domain": "fireworks.ai"
+     }
+    ]
+   },
+   {
+    "segment": "Practice canon",
+    "vendors": [
+     {
+      "name": "Husain-Shankar AI Evals course",
+      "domain": "maven.com"
+     },
+     {
+      "name": "OpenAI evals cookbook",
+      "domain": "openai.com"
+     }
+    ]
+   }
+  ],
+  "map_sources": [
+   "https://www.marktechpost.com/2026/08/09/top-llm-observability-and-evaluation-platforms-in-2026-langfuse-langsmith-braintrust-arize-and-more-compared/",
+   "https://mad.firstmark.com/",
+   "https://menlovc.com/perspective/2025-the-state-of-generative-ai-in-the-enterprise/",
+   "https://github.com/joylarkin/Awesome-AI-Market-Maps",
+   "https://www.troveo.ai/resources/rl-environment-companies"
+  ],
+  "new_segment_idea": "RL environments for agent training \u2014 consistently carved as its own category in 2026 coverage (TechCrunch, Epoch AI, Troveo): environment-native startups Mechanize, Fleet AI, Veris AI, Plato; open ecosystem Prime Intellect; human-data incumbents Scale/Surge/Mercor adding environments; Patronus AI bridging from evals with Digital World Models."
+ },
+ {
+  "layer": "People and operating model",
+  "additions": [
+   {
+    "segment": "Operating-model archetypes",
+    "vendors": []
+   },
+   {
+    "segment": "New roles",
+    "vendors": []
+   },
+   {
+    "segment": "Adoption analytics and enablement",
+    "vendors": [
+     {
+      "name": "Pendo",
+      "domain": "pendo.io"
+     },
+     {
+      "name": "Whatfix",
+      "domain": "whatfix.com"
+     },
+     {
+      "name": "DX",
+      "domain": "getdx.com"
+     },
+     {
+      "name": "Jellyfish",
+      "domain": "jellyfish.co"
+     }
+    ]
+   },
+   {
+    "segment": "Skills and academies",
+    "vendors": [
+     {
+      "name": "Multiverse",
+      "domain": "multiverse.io"
+     },
+     {
+      "name": "Section",
+      "domain": "sectionschool.com"
+     },
+     {
+      "name": "Uplimit",
+      "domain": "uplimit.com"
+     },
+     {
+      "name": "Correlation One",
+      "domain": "correlation-one.com"
+     }
+    ]
+   }
+  ],
+  "map_sources": [
+   "Menlo Ventures \u2014 2025 State of Generative AI in the Enterprise (menlovc.com)",
+   "FirstMark MAD (ML/AI/Data) Landscape 2025 (mad.firstmark.com)",
+   "Emerge Insights \u2014 Enterprise AI Adoption: a market map for founders (medium.com/emerge-edtech-insights)",
+   "Awesome AI Market Maps, 500+ maps 2025-2026 (github.com/joylarkin/Awesome-AI-Market-Maps)",
+   "Gartner Digital Adoption Platforms market (gartner.com/reviews/market/digital-adoption-platforms)"
+  ],
+  "new_segment_idea": "Agent workforce systems of record \u2014 HR-style registries that manage AI agents alongside human employees in the org chart, with skills, cost, and workforce planning (anchored by Workday Agent System of Record, GA May 2026; echoed in Josh Bersin and CIO coverage as a distinct emerging category)"
+ }
+]

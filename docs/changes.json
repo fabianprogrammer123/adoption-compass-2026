@@ -1,0 +1,188 @@
+{
+ "quick_wins": [
+  {
+   "change": "Fix every on-page arithmetic and count failure: p3 'The Pace' bars sum to 33 not the claimed 35 and '12 numbers' headline vs 9 tiles; p4 says 'six states' while drawing seven stations (Levels 0-6); p7 distribution bars sum to ~93 with no 'does not sum to 100' note; p8 enterprise sub-rows sum to 63 vs stated 62 with no rounding note.",
+   "pages": "3, 4, 7, 8",
+   "why": "Reviews repeatedly flag these as the first check a consulting-literate exec runs \u2014 'any exec who counts loses trust in every other tile.' All are one-line text or footnote fixes.",
+   "effort": "S"
+  },
+  {
+   "change": "Standardize and caveat the contested MIT NANDA 95% figure everywhere it appears: one canonical phrasing (95% of pilots, self-selected sample, methodology contested), a footnote on each instance, and fix p22 where it silently morphs from '95% of pilots' into '95% of spend' with no citation.",
+   "pages": "2, 3, 6, 7, 22",
+   "why": "Called 'the single most-contested figure in the genre,' presented uncaveated on p6, exposed as lead stat on p7, and misstated on the action page p22 \u2014 'a demanding exec catches exactly this substitution on the page where you ask them to act.'",
+   "effort": "S"
+  },
+  {
+   "change": "Repair the endnote apparatus report-wide: duplicate numbers (24 assigned twice on p14 and p20, 29 twice on p17), out-of-order superscript runs (p5: 7,6,18; p14: 19/24/22/24; p16: 1/35/35), stranded markers on p11, and add the missing source anchors to the ~10 statistics on the executive summary (p2) and the rail stats on p19.",
+   "pages": "2, 5, 11, 14, 16, 17, 19, 20",
+   "why": "p2's zero source markers is named 'the single biggest credibility gap on the page,' and duplicate/out-of-order endnotes appear on five pages \u2014 a mechanical editor pass that closes the report's most visible sourcing defects.",
+   "effort": "M"
+  },
+  {
+   "change": "Neutralize first-person vendor voice: rewrite p11's 'our task-trained 9B open model' and p2's 'our published experiment' in third person with attribution, and cut p16's advocacy copy for Huzzle ('300,000+ domain experts' as fact) and Coast ('exactly what regulated European enterprises need').",
+   "pages": "2, 11, 16",
+   "why": "Reviews call the p11 sidebar 'a credibility landmine' and say p16 'will smell of placement' \u2014 a neutral industry report suddenly selling taints the adjacent exhibits and invites due-diligence challenge on the whole report.",
+   "effort": "S"
+  },
+  {
+   "change": "Add a one-line legend to the recurring Level 2-6 maturity strip: what the violet Level-4 highlight means (recommended target vs you-are-here) and why Levels 0-1 are omitted, with a cross-reference to the p7 definition page.",
+   "pages": "11, 13, 14, 15, 17, 18, 19, 20, 21",
+   "why": "Eight separate page reviews independently flag the unexplained violet highlight and the silently dropped Levels 0-1 \u2014 one reusable legend line fixes a decode failure across a third of the report.",
+   "effort": "S"
+  },
+  {
+   "change": "Fix folio and trim collisions: folio sits inside 'The move' callout on p13 and p15 and floats above it on p14; the source line collides with the folio on p5; the Source line is clipped mid-sentence at the page trim on p6.",
+   "pages": "5, 6, 13, 14, 15",
+   "why": "Repeated print-craft errors at the highest-visibility corner of each page; p6's clipped sourcing line 'dies at the edge' on a page built on sourcing. Master-page margin fix.",
+   "effort": "S"
+  },
+  {
+   "change": "Cover copy corrections: complete the clipped '42 percent plan to [deploy] within twelve months,' fix the mixed 'compass is the map' metaphor in the report's name sentence, and remove or relocate the ~6pt McKinsey name-check disclaimer to the p24 colophon (which already carries one).",
+   "pages": "1",
+   "why": "Copy defects sit in the cover's highest-visibility paragraph, and naming McKinsey on your own cover 'concedes the design imitates their trade dress and invites the comparison.'",
+   "effort": "S"
+  },
+  {
+   "change": "Precision wording fixes on data claims: p5 '37.2% of AI usage' \u2192 'of Claude conversations' and 'generate' \u2192 'maps to'; p14's NANDA paraphrase silently shifts workers to companies; p15 'OAuth-grade security specification' \u2192 'adopted OAuth 2.1'; p17 'Three security philosophies' vs the four archetypes tabled directly below.",
+   "pages": "5, 14, 15, 17",
+   "why": "Each is an overclaim or contradiction a technical reviewer catches instantly; the p17 three-vs-four contradiction is flagged as something 'a demanding reader catches immediately.'",
+   "effort": "S"
+  },
+  {
+   "change": "p9 benchmark exhibit: add a legend for (or remove) the unexplained violet/near-black bar alternation, and plot OSWorld's ~72 human baseline as a dashed mark per the page's own convention instead of burying it in caption prose.",
+   "pages": "9",
+   "why": "An unexplained two-color encoding in a benchmark chart 'reads as either meaningless decoration or a hidden claim,' and the human-baseline convention is available but unapplied on the one row where it matters.",
+   "effort": "S"
+  },
+  {
+   "change": "Label the unlabeled glyphs and decode insider jargon: p4's dark triangle at the road's end, p10's 5C row tags (Configuration/Context/Control/Cost/Cultivation) and merged Level 0-1 column, p18's 'click-ops,' and p6's cryptic milestone labels ('RLVR,' 'within 25 Elo,' '1/68').",
+   "pages": "4, 6, 10, 18",
+   "why": "Multiple reviews note a print-audience exec cannot decode these without insider context; each is a caption or key line, not a redesign.",
+   "effort": "S"
+  }
+ ],
+ "structural": [
+  {
+   "change": "Rebuild p5 Exhibit 2 honestly: either replace the invented '+4 stretches/week' function-speed metrics with real per-function data, or move 'illustrative' from the 7pt footnote into the exhibit title and define 'stretch'; align the six business functions with Exhibit 3's occupational categories so the evidence chain holds.",
+   "pages": "5",
+   "why": "Reviews call these 'invented numbers styled as data' \u2014 an analyst who reads the footnote discounts 40% of the page, one who doesn't is misled; only one of six functions has any supporting data on the page.",
+   "effort": "M"
+  },
+  {
+   "change": "Design a real back cover for p24: fill the empty bottom 40% with a closing device and imprint block, replace the cdtm.com personal email with a professional contact and report URL, and rewrite the author bios ('BEO. DEX (Y Combinator)', 'TUM, HEC Paris, CDTM') into plain English a US Fortune-500 reader can parse.",
+   "pages": "24",
+   "why": "The report currently 'reads as a document that ran out, not one that ended,' and the student-club contact domain 'quietly undercuts the entire credibility scaffold above it' \u2014 the last impression before the reader decides whether to circulate it.",
+   "effort": "M"
+  },
+  {
+   "change": "Recompose the cover: anchor the hollow 40-60% dead band (a contents strip or payoff pointer is the natural fill), fix the teaser heatmap so its axis matches the 7-level scale (currently Level 0/2/4/6 labels over 8+ columns) and give it a key, and add issuing entity plus month/version.",
+   "pages": "1",
+   "why": "The cover is 'top-left-heavy and bottom-heavy with nothing anchoring the middle,' the teaser 'reads decorative, and slightly wrong, to a careful reader,' and no publisher or precise date makes the report un-citable from page one.",
+   "effort": "M"
+  },
+  {
+   "change": "Rework p8's exhibits: print numeric human baselines on Exhibit 8 (dashes currently cut through value labels and carry no numbers), add a year-ago tau-bench point so the 'plateau' half of the title is shown not asserted, render Exhibit 7's enterprise segment as actual bars instead of 6pt violet text, and add the ~33% non-adopter bar.",
+   "pages": "8",
+   "why": "The page's core claim ('policy-constrained reliability plateaus') is a text annotation with no evidence, the promised human comparison is unreadable, and the intro's 'most functions have not started' claim depends on a bar that isn't drawn.",
+   "effort": "M"
+  },
+  {
+   "change": "Close the loop on p22: map moves 1-5 onto the Days 0-30/31-60/61-90 columns with numbered chips or a bracket, add an owner column (CIO/CISO/CFO) per move, align the ragged 'Artifact:' caption baselines across the five columns, and rebalance the cramped exhibit against the empty bottom quarter.",
+   "pages": "22",
+   "why": "The reader must currently reverse-engineer that moves 1-2=SEE, 3-4=GOVERN, 5=PROVE, and 'for a board-facing sequence, accountability is the missing column' \u2014 this is the report's operational payload page.",
+   "effort": "M"
+  },
+  {
+   "change": "Upgrade the p4 journey exhibit: annotate the L3\u2192L4 stall (named in the standfirst, absent from the map \u2014 the empty U-loop interior is the spot), add a one-line human/AI fallback-holder tag per station to deliver the promised definition, set Level 0 visually off the road, cut the triple-stated frontier-pace caption, and source the two pace rates.",
+   "pages": "4",
+   "why": "The exhibit omits the standfirst's own headline claim (where 'most journeys stall'), defines levels by fallback holder but names it for only one of seven stations, and presents unsourced rates 'as metaphor dressed as measurement.'",
+   "effort": "M"
+  },
+  {
+   "change": "Fix p3's two weakest tiles: fill the hero tile's empty third (peer distribution across the 0-6 strip is the natural content), rebuild 'The Endgame' chart with a labeled metric, axis, and task instead of seven unlabeled dots and a star, and correct the '3.4% of workers' vs 'share of US jobs' label slip.",
+   "pages": "3",
+   "why": "The page's visual anchor 'reads unfinished' and its boldest claim ($500 beats the frontier) is 'backed by a decorative chart' from the page's least recognizable source \u2014 the two highest-stakes tiles are the two weakest.",
+   "effort": "M"
+  },
+  {
+   "change": "Restructure the References page: split bundled entries (#22, #24, #29, #34) into individually citable sub-markers (29a-29d), replace domain-only links (mckinsey.com, gartner.com) with full report titles plus stable URLs or DOIs, and add a 'Surveys, continued' cue where column 2 breaks.",
+   "pages": "23",
+   "why": "An in-text [29] currently 'cannot be traced to one document, contradicting the header's precision promise,' and staff verifying a figure against a bare vendor domain 'will struggle' \u2014 this page is the report's diligence backbone.",
+   "effort": "M"
+  },
+  {
+   "change": "Rebuild p2's bottom third: extend the CONTENTS table to full text width (or fill the dead right column with the 'what to do now' capsule), align unnumbered TOC rows to the numbered rows' indent, and convert hyphens to en dashes throughout.",
+   "pages": "2",
+   "why": "The executive summary ends on 'a conspicuous dead zone at bottom-right' exactly where the reviews say an action capsule belongs; alignment and dash errors sit on the most-read page in the report.",
+   "effort": "S"
+  },
+  {
+   "change": "Run a vertical-rhythm pass on the pages with inverted density: dead bands beside cramped blocks on p12 (~70px mid-page gap), p13 (void above Exhibit 13, crushed bottom third), p15 (L-shaped whitespace over a five-element stack), and p18 (two-thirds-empty exhibit rows over a packed bottom half).",
+   "pages": "12, 13, 15, 18",
+   "why": "Four reviews independently describe the same defect \u2014 whitespace where content is missing and cramming where the decision tools live; several voids are the designated homes for content-gap items below.",
+   "effort": "M"
+  }
+ ],
+ "content_gaps": [
+  {
+   "change": "Add a publisher/imprint block: issuing legal entity on the cover and p24, copyright line, license/internal-circulation terms, a canonical URL where Version 1.2 will live, and a conflict-of-interest statement disclosing that the authors build and sell agentic systems (including the fermisense relationship).",
+   "pages": "1, 24",
+   "why": "'A Fortune 500 reader will ask who stands behind and maintains this report, and the cover does not answer'; 'Independently authored' is claimed while three of four sources on p12 are the authors' own \u2014 undisclosed COI is the single fastest way to lose this audience.",
+   "effort": "S"
+  },
+  {
+   "change": "Add the peer benchmark and a worked example: where Fortune 500 companies actually cluster on the 0-6 strip (p3), a sample jagged profile overlaid on the p10 matrix with a dated 'typical F500 sits here, Aug 2026' marker, and a self-placement cue on p7's distribution page.",
+   "pages": "3, 7, 10",
+   "why": "'Locate yourself' shows the scale but not the peers \u2014 'the single number that would trigger action (am I behind?) is absent,' and the report's central diagnostic instrument ships as an empty matrix with no calibration.",
+   "effort": "M"
+  },
+  {
+   "change": "Add a cost/effort dimension to every layer archetype table: order-of-magnitude build effort, run cost, and team prerequisite per archetype across the six deep-dive pages, plus an owner signal for each 'move' (who runs the gateway, who runs evals).",
+   "pages": "11, 13, 14, 15, 16, 18, 20",
+   "why": "Six page reviews independently flag the same gap \u2014 'cheap' and 'volume justifies the latency' are qualitative, so the decision tables are 'assertion-only' and not decidable by a CFO-adjacent reader.",
+   "effort": "L"
+  },
+  {
+   "change": "Quantify the economics the report itself promises: a worked cost-per-completed-task example and payback estimate on p19 (whose 'no other build pays back faster' claim is currently unsupported), and a when-to-train decision rule plus TCO (retraining cadence, eval maintenance, MLOps headcount) for the $500 specialist on p12.",
+   "pages": "12, 19",
+   "why": "A page titled 'Observability and cost' contains zero currency figures, and the specialist page 'proves it worked once but gives no threshold for when to replicate it' \u2014 these are the ROI numbers the audience reads the report for.",
+   "effort": "M"
+  },
+  {
+   "change": "Add named, dated proof points: one enterprise running the recommended orchestration pattern (p13), one computer-use deployment on a legacy screen with an outcome metric (p16), one named security incident with citation to anchor the 'stolen OAuth tokens, deleted databases' litany (p17), and a cited memory-poisoning example (p14).",
+   "pages": "13, 14, 16, 17",
+   "why": "The doctrine 'rests entirely on vendor guides and survey data' \u2014 reviews across four pages note that a single named example would anchor arguments that currently stay theoretical.",
+   "effort": "M"
+  },
+  {
+   "change": "Ship the self-placement instrument: a worksheet/template (appendix page or QR/URL) that the p24 one-hour workshop, the p22 CTA, and the p10 matrix all point to \u2014 nine rows, evidence-artifact column per cell, with the per-row artifacts named (only 3 of 9 currently are).",
+   "pages": "10, 22, 24",
+   "why": "'The reader is told how to run it but not handed the instrument' \u2014 the report's whole call to action terminates in a missing artifact.",
+   "effort": "M"
+  },
+  {
+   "change": "Add the hyperscaler channel to the p11 model landscape (AWS Bedrock, Azure AI Foundry, Google Vertex) and a price-per-token trend chart to back the asserted 'prices keep falling' claim.",
+   "pages": "11",
+   "why": "A page titled 'Models and inference' omits 'the segment the audience currently sits in' \u2014 how most Fortune 500s actually buy frontier models \u2014 and promises a cost story it never delivers.",
+   "effort": "M"
+  },
+  {
+   "change": "Draw the two promised-but-missing diagrams: the p15 governance pattern (public registry \u2192 allowlisted sub-registry \u2192 scoped tokens \u2192 write gating), which has an empty region waiting for it, and a p13 'Exhibit 13b' reference architecture (deterministic spine invoking agent nodes with an explicit human gate).",
+   "pages": "13, 15",
+   "why": "Both pages assert their central architecture in prose only \u2014 p15's kicker promises 'control and configuration dimensions' and p13's title promises a combination that is 'asserted, never shown.'",
+   "effort": "M"
+  },
+  {
+   "change": "State the operational thresholds and cadences the doctrine pages withhold: example intervention triggers and named AI failure modes (p18), a trackable exec metric for evals (p20), evidence thresholds for the Day-90 scale-or-stop decision (p22), and the replacement planning cadence p6 demands but never gives.",
+   "pages": "6, 18, 20, 22",
+   "why": "Each page issues a directive ('plan on it directly,' 'decision on evidence') without the number or artifact that makes it executable \u2014 reviews call these the concrete pieces 'an ops leader would copy.'",
+   "effort": "M"
+  },
+  {
+   "change": "Complete the p21 operating-model page: add the missing 'Federated on a control plane' row to the archetype decision table, state where the three new roles (agent owner, orchestrator, fleet manager) sit and report, and cite a human-agent ratio benchmark (Microsoft Work Trend Index publishes one).",
+   "pages": "21",
+   "why": "The maturity endpoint the exhibit introduces 'has no choose-when guidance,' and the page never answers 'the core operating-model question the page title promises.'",
+   "effort": "M"
+  }
+ ]
+}

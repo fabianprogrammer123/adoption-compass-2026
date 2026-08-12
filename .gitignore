@@ -1,0 +1,3 @@
+dist/*.jpg
+*.bak
+.DS_Store
