@@ -144,11 +144,36 @@
   .bmeta{font-size:7.6pt;font-weight:700;color:var(--navy);margin-top:0.9mm;white-space:nowrap;}
   .bmeta span{font-weight:400;color:var(--gray);font-size:6.6pt;}
 
-  .coauth{display:flex;align-items:center;gap:2.4mm;margin:-2.2mm 0 2.2mm;padding:1mm 0;border-top:0.4pt solid var(--hair);border-bottom:0.4pt solid var(--hair);max-width:176mm;}
+  .coauth{border-top:0.4pt solid var(--hair);border-bottom:0.4pt solid var(--hair);padding:1.5mm 0 1.7mm;margin:-2.2mm 0 2.6mm;max-width:176mm;}
+  .coauth .row1{display:flex;align-items:center;gap:2.4mm;}
+  .colg{margin-left:auto;display:flex;align-items:center;gap:1.6mm;font-size:7.8pt;font-weight:600;letter-spacing:0.04em;color:var(--navy);}
+  .colg img{width:4mm;height:4mm;object-fit:contain;}
+  .cob{font-size:7.2pt;line-height:1.4;color:var(--gray);margin-top:1.3mm;}
+  .cob b{color:var(--navy);}
   .coauth .cm{width:7.4mm;height:7.4mm;border-radius:50%;background:var(--tint);color:var(--blue);font-weight:700;font-size:8pt;display:flex;align-items:center;justify-content:center;flex:none;}
   .coauth img.face{width:7.4mm;height:7.4mm;border-radius:50%;object-fit:cover;flex:none;}
   .coauth .ct{font-size:7.6pt;color:var(--gray);}
   .coauth .ct b{color:var(--navy);}
+  .movebox .swlab{display:block;font-size:6.6pt;font-weight:700;letter-spacing:0.2em;text-transform:uppercase;color:var(--blue);margin-bottom:0.7mm;}
+  .movebox.sw{border-left:2.6pt solid var(--blue);}
+  .lay p.body{margin-bottom:1.5mm;line-height:1.36;}
+  .lay .exhibit{margin-top:2mm;}
+  .lay table.players td{padding:1.1mm 0 0.9mm;}
+  .lay .pl{font-size:7.6pt;margin:0.35mm 4.5mm 0.35mm 0;}
+  .lay table.arch td{font-size:7.7pt;line-height:1.26;padding:0.9mm 4mm 0.75mm 0;}
+  .lay table.arch th{padding:1.1mm 0 0.8mm;}
+  .lay .sp b{font-size:7.2pt;} .lay .sp span{font-size:6.8pt;line-height:1.24;}
+  .lay .specwrap{margin-top:1.5mm;} .lay .speclabel{margin-bottom:1mm;}
+  .lay .movebox{margin-top:0.8mm;padding:1.9mm 3.2mm;font-size:8.1pt;line-height:1.36;}
+  .lay .diag{margin-top:0.9mm;line-height:1.3;}
+  .lay .fn{margin-top:1mm;}
+  .lay .callout{margin-bottom:4.2mm;}
+  .lay h1{margin-bottom:2.2mm;}
+  .lay .coauth{margin:-2.6mm 0 2.2mm;padding:1.2mm 0 1.4mm;}
+  .lay .cob{margin-top:1mm;line-height:1.32;}
+  .lay td.seg .vp{line-height:1.26;}
+  .lay .sp{padding:1.2mm 3mm 0 0;}
+  .cowm{font-size:8pt;font-weight:600;letter-spacing:0.12em;color:#FFFFFF;opacity:0.92;}
   .cm-open{background:#fff !important;border:0.5pt dashed var(--soft);color:var(--soft);font-size:10pt;}
   .coauth .ct .lb{font-size:5.6pt;letter-spacing:0.16em;text-transform:uppercase;color:var(--soft);margin-right:2mm;}
   .tightpg p.body{margin-bottom:1.6mm;line-height:1.37;}
@@ -252,6 +277,7 @@
     <div class="meta">
       <div class="auth">Fabian Hildesheim · Joël Hainzl</div>
       <div class="cred"><div class="cl">Research affiliations of the authors</div><div class="logos"><img src="inst/stanford.svg"><img class="tall" src="inst/tum.svg"><img class="tall" src="inst/hec-paris.svg"><img class="m" src="inst/wu-vienna.svg"><img class="m" src="inst/cdtm.svg"></div></div>
+      <div class="cred" style="margin-top:2.8mm;"><div class="cl">Co-authored in collaboration with</div><div style="display:flex;gap:4.5mm;align-items:baseline;flex-wrap:wrap;margin-top:1.2mm;"><span class="cowm">HUZZLE LABS</span><span class="cowm">OSM DATA</span><span class="cowm">KONTEXT.SECURITY</span><span class="cowm">LYCEUM</span></div></div>
       <div class="note">Independently authored. The format follows the exhibit conventions of management-consulting publications; this document is not authored by or affiliated with McKinsey &amp; Company.</div>
     </div>
   </div>
@@ -881,10 +907,10 @@
 </div>
 
 <!-- ============ 5 · LAYER 1 ============ -->
-<div class="page tightpg">
+<div class="page lay">
   <div class="eyebrow">Section 04 · Layer 1 · Configuration dimension</div>
   <h1>Models and inference</h1>
-  <div class="coauth"><div class="cm cm-open">+</div><div class="ct"><span class="lb">Layer co-author</span><b>Open slot</b> &#183; practitioner co-authors welcome: fabian.hildesheim@cdtm.com</div></div>
+  <div class="coauth"><div class="row1"><div class="cm">L</div><div class="ct"><span class="lb">Co-author</span><b>To be announced</b> &#183; Founder, Lyceum</div><div class="colg">Lyceum</div></div><div class="cob"><b>Lyceum</b> co-authors this layer. Company introduction and the practitioner view of the inference stack follow in the next revision.</div></div>
   <div class="cols">
     <div class="rail">
       <div class="callout"><div class="cnum">37%</div><div class="ccap">of enterprises already run five or more foundation models in production (a16z CIO survey, June 2025)</div></div>
@@ -924,14 +950,14 @@
 
   <div class="specwrap"><div class="speclabel">What good looks like, by level</div>
   <div class="spec">
-    <div class="sp"><b>Level 2</b><span>Vendor suites as shipped</span></div>
-    <div class="sp"><b>Level 3</b><span>Team keys, habit-based choice</span></div>
-    <div class="sp hot"><b>Level 4</b><span>Gateway, virtual keys, routing</span></div>
-    <div class="sp"><b>Level 5</b><span>Specialists join the portfolio</span></div>
-    <div class="sp"><b>Level 6</b><span>Fleet retrained from traces</span></div>
+    <div class="sp"><b>Level 1</b><span>Vendor suites as shipped</span></div>
+    <div class="sp"><b>Level 2</b><span>Team keys, habit-based choice</span></div>
+    <div class="sp hot"><b>Level 3</b><span>Gateway, virtual keys, routing</span></div>
+    <div class="sp"><b>Level 4</b><span>Specialists join the portfolio</span></div>
+    <div class="sp"><b>Level 5</b><span>Fleet retrained from traces</span></div>
   </div></div>
   <div class="diag"><b>DIAGNOSTIC&nbsp;&nbsp;</b> Could you swap the model behind your flagship workflow without touching code? Do you know cost and quality per model per task, or only per vendor invoice?</div>
-  <div class="movebox"><b>The move.</b> Put one gateway in front of all model traffic and move the raw keys into it. Every other capability in this report attaches to that chokepoint.</div>
+  <div class="movebox sw"><span class="swlab">So what</span>Put one gateway in front of all model traffic and move the raw keys into it. Every other capability in this report attaches to that chokepoint.</div>
   <div class="pnum">11</div>
 </div>
 
@@ -957,15 +983,15 @@
     <div class="fn">¹Same tools, images, and scorer for every configuration; frontier models run with optimized prompts. Specialist: Qwen3.5-9B trained with GRPO via prime-rl.
     <span class="src">Source: Hildesheim, Hainzl et al., "The Rise of Intelligence Ownership", fermisense.com, July 27, 2026<sup class="rf">21</sup></span></div>
   </div>
-  <div class="movebox"><b>The move.</b> Once a workflow is instrumented and evaluated at Level 4, its traces become training data. Specialists are how Level 5 economics arrive: quality above the frontier plateau at commodity cost, on hardware you own.</div>
+  <div class="movebox sw"><span class="swlab">So what</span>Once a workflow is instrumented and evaluated at Level 4, its traces become training data. Specialists are how Level 5 economics arrive: quality above the frontier plateau at commodity cost, on hardware you own.</div>
   <div class="pnum">12</div>
 </div>
 
 <!-- ============ 6 · LAYER 2 ============ -->
-<div class="page tightpg">
+<div class="page lay">
   <div class="eyebrow">Section 04 · Layer 2 · Configuration dimension</div>
   <h1>Orchestration and architecture</h1>
-  <div class="coauth"><img class="face" src="coauthors/jakob-mayer.jpg"><div class="ct"><span class="lb">Layer co-author</span><b>Jakob Mayer</b> &#183; Founder and CEO, OSM Data</div></div>
+  <div class="coauth"><div class="row1"><img class="face" src="coauthors/jakob-mayer.jpg"><div class="ct"><span class="lb">Co-author</span><b>Jakob Mayer</b> &#183; Founder and CEO, OSM Data</div><div class="colg"><img src="logos/osm-data.com.png"> OSM Data</div></div><div class="cob"><b>OSM Data</b> builds mathematical optimization systems for energy planning, trading, scheduling, and real-time operations, connecting constrained decisions across markets and time horizons. Deterministic decision systems of exactly this kind are the rails this layer wraps around agent workflows.</div></div>
   <div class="cols">
     <div class="rail">
       <div class="callout"><div class="cnum">16%</div><div class="ccap">of enterprise "agent" deployments qualify as true agents; most are fixed-sequence workflows (Menlo Ventures, December 2025)</div></div>
@@ -1005,22 +1031,22 @@
 
   <div class="specwrap"><div class="speclabel">What good looks like, by level</div>
   <div class="spec">
-    <div class="sp"><b>Level 2</b><span>Prompting inside vendor UIs</span></div>
-    <div class="sp"><b>Level 3</b><span>First chains and no-code flows</span></div>
-    <div class="sp hot"><b>Level 4</b><span>Instrumented pipelines with gates</span></div>
-    <div class="sp"><b>Level 5</b><span>Orchestrator-worker patterns</span></div>
-    <div class="sp"><b>Level 6</b><span>Agent meshes, agent-first design</span></div>
+    <div class="sp"><b>Level 1</b><span>Prompting inside vendor UIs</span></div>
+    <div class="sp"><b>Level 2</b><span>First chains and no-code flows</span></div>
+    <div class="sp hot"><b>Level 3</b><span>Instrumented pipelines with gates</span></div>
+    <div class="sp"><b>Level 4</b><span>Orchestrator-worker patterns</span></div>
+    <div class="sp"><b>Level 5</b><span>Agent meshes, agent-first design</span></div>
   </div></div>
   <div class="diag"><b>DIAGNOSTIC&nbsp;&nbsp;</b> Can the flagship workflow run end to end without a person ferrying context between tools?</div>
-  <div class="movebox" style="margin-top:1mm;"><b>The move.</b> Rebuild the one or two workflows that matter as instrumented pipelines with explicit human gates; kill the rest of the pilot zoo.</div>
+  <div class="movebox sw" style="margin-top:1mm;"><span class="swlab">So what</span>Rebuild the one or two workflows that matter as instrumented pipelines with explicit human gates; kill the rest of the pilot zoo.</div>
   <div class="pnum">13</div>
 </div>
 
 <!-- ============ 7 · LAYER 3 ============ -->
-<div class="page tightpg">
+<div class="page lay">
   <div class="eyebrow">Section 04 · Layer 3 · Context dimension</div>
   <h1>Knowledge, context, and memory</h1>
-  <div class="coauth"><img class="face" src="coauthors/justinas-zaliaduonis.jpg"><div class="ct"><span class="lb">Layer co-author</span><b>Justinas Zaliaduonis</b> &#183; Founder, fermisense</div></div>
+  <div class="coauth"><div class="row1"><img class="face" src="coauthors/justinas-zaliaduonis.jpg"><div class="ct"><span class="lb">Co-author</span><b>Justinas Zaliaduonis</b> &#183; Founder, fermisense</div><div class="colg"><img src="logos/fermisense.com.png"> fermisense</div></div><div class="cob"><b>fermisense</b> is the authors' applied-research lab: task-trained specialist models from instrumented workflow traces. The intelligence-ownership experiment on page 12 is its work.</div></div>
   <div class="cols">
     <div class="rail">
       <div class="callout"><div class="cnum">51%</div><div class="ccap">of enterprises had adopted retrieval-augmented generation by late 2024, up from 31% a year earlier (Menlo Ventures, November 2024)</div></div>
@@ -1028,7 +1054,7 @@
     </div>
     <div class="main">
       <p class="body"><b>The maturity path is retrieval sophistication plus governance, not more indexes.</b> The field progressed from naive retrieval-augmented generation through advanced and modular retrieval to graph-based and agentic retrieval, where the model decides when and how to retrieve. The enterprise problem differs from the demo problem: permission-aware retrieval, provenance per answer, and one governed source reused across workflows instead of five bespoke builds.</p>
-      <p class="body"><b>Context engineering has replaced prompt engineering as the discipline.</b> The practice: curate the smallest set of high-signal tokens, compact aggressively, keep persistent notes outside the window, isolate sub-agent contexts, retrieve just in time. Agent memory is becoming a managed service with retention rules, and memory poisoning is now a named attack class to defend against.</p>
+      <p class="body"><b>Context engineering has replaced prompt engineering as the discipline.</b> The practice: curate the smallest set of high-signal tokens, compact aggressively, keep notes outside the window, retrieve just in time. Agent memory is becoming a managed service with retention rules, and memory poisoning is now a named attack class to defend against.</p>
     </div>
   </div>
 
@@ -1060,22 +1086,22 @@
 
   <div class="specwrap"><div class="speclabel">What good looks like, by level</div>
   <div class="spec">
-    <div class="sp"><b>Level 2</b><span>Copy-paste context, app ACLs</span></div>
-    <div class="sp"><b>Level 3</b><span>Per-team RAG, duplicated effort</span></div>
-    <div class="sp hot"><b>Level 4</b><span>Governed, permission-aware sources</span></div>
-    <div class="sp"><b>Level 5</b><span>Company brain, managed memory</span></div>
-    <div class="sp"><b>Level 6</b><span>Self-maintaining substrate</span></div>
+    <div class="sp"><b>Level 1</b><span>Copy-paste context, app ACLs</span></div>
+    <div class="sp"><b>Level 2</b><span>Per-team RAG, duplicated effort</span></div>
+    <div class="sp hot"><b>Level 3</b><span>Governed, permission-aware sources</span></div>
+    <div class="sp"><b>Level 4</b><span>Company brain, managed memory</span></div>
+    <div class="sp"><b>Level 5</b><span>Self-maintaining substrate</span></div>
   </div></div>
   <div class="diag"><b>DIAGNOSTIC&nbsp;&nbsp;</b> Is retrieval permission-aware, or can the index see more than the asking user should?</div>
-  <div class="movebox" style="margin-top:1mm;"><b>The move.</b> Stand up one governed, permission-aware context source and make two workflows share it.</div>
+  <div class="movebox sw" style="margin-top:1mm;"><span class="swlab">So what</span>Stand up one governed, permission-aware context source and make two workflows share it.</div>
   <div class="pnum">14</div>
 </div>
 
 <!-- ============ 8 · LAYER 4 ============ -->
-<div class="page tightpg">
+<div class="page lay">
   <div class="eyebrow">Section 04 · Layer 4 · Control and Configuration dimensions</div>
   <h1>Tools and actions</h1>
-  <div class="coauth"><div class="cm cm-open">+</div><div class="ct"><span class="lb">Layer co-author</span><b>Open slot</b> &#183; practitioner co-authors welcome: fabian.hildesheim@cdtm.com</div></div>
+  <div class="coauth"><div class="row1"><div class="cm cm-open">+</div><div class="ct"><span class="lb">Co-author</span><b>Open slot</b> &#183; practitioner co-authors welcome: fabian.hildesheim@cdtm.com</div></div><div class="cob">A founder building in this layer adds their photo, a short company introduction in this space, and one review pass of the page.</div></div>
   <div class="cols">
     <div class="rail">
       <div class="callout"><div class="cnum">40%</div><div class="ccap">of enterprise applications will ship task-specific agents by end-2026, up from under 5% in 2025 (Gartner, August 2025)</div></div>
@@ -1115,22 +1141,22 @@
 
   <div class="specwrap"><div class="speclabel">What good looks like, by level</div>
   <div class="spec">
-    <div class="sp"><b>Level 2</b><span>AI reads, humans act</span></div>
-    <div class="sp"><b>Level 3</b><span>First function calls, per-app bots</span></div>
-    <div class="sp hot"><b>Level 4</b><span>Registry, MCP, writes gated</span></div>
-    <div class="sp"><b>Level 5</b><span>Cross-system action, escalation</span></div>
-    <div class="sp"><b>Level 6</b><span>Agent-to-agent transactions</span></div>
+    <div class="sp"><b>Level 1</b><span>AI reads, humans act</span></div>
+    <div class="sp"><b>Level 2</b><span>First function calls, per-app bots</span></div>
+    <div class="sp hot"><b>Level 3</b><span>Registry, MCP, writes gated</span></div>
+    <div class="sp"><b>Level 4</b><span>Cross-system action, escalation</span></div>
+    <div class="sp"><b>Level 5</b><span>Agent-to-agent transactions</span></div>
   </div></div>
   <div class="diag"><b>DIAGNOSTIC&nbsp;&nbsp;</b> Can an agent change a record in a business system today, and under whose credentials? Could you list every tool every agent can call?</div>
-  <div class="movebox"><b>The move.</b> Stand up the tool registry and per-agent scoping before expanding what agents can touch. An action surface without identity is an incident schedule.</div>
+  <div class="movebox sw"><span class="swlab">So what</span>Stand up the tool registry and per-agent scoping before expanding what agents can touch. An action surface without identity is an incident schedule.</div>
   <div class="pnum">15</div>
 </div>
 
 <!-- ============ CU · LAYER 4 DEEP DIVE ============ -->
-<div class="page">
+<div class="page lay">
   <div class="eyebrow">Section 04 · Layer 4 deep dive · Control and Configuration dimensions</div>
   <h1>Computer use and reinforcement learning</h1>
-  <div class="coauth"><img class="face" src="coauthors/ingmar-klein.jpg"><div class="ct"><span class="lb">Layer co-author</span><b>Ingmar Klein</b> &#183; Founder, Huzzle Labs</div></div>
+  <div class="coauth"><div class="row1"><img class="face" src="coauthors/ingmar-klein.jpg"><div class="ct"><span class="lb">Co-author</span><b>Ingmar Klein</b> &#183; Founder, Huzzle Labs</div><div class="colg"><img src="logos/labs.huzzle.com.png"> Huzzle Labs</div></div><div class="cob"><b>Huzzle Labs</b> trains small computer-use models in proprietary reinforcement-learning environments, built with a network of 300,000+ domain experts. Its h-1 family ranks beside far larger frontier models on OSWorld and keeps a fully local, replayable audit trail.</div></div>
   <div class="cols">
     <div class="rail">
       <div class="callout"><div class="cnum">66.3%</div><div class="ccap">top score on OSWorld real-computer tasks, within six points of the 72 percent human baseline and up from 12 percent two years earlier (AI Index 2026)</div></div>
@@ -1164,15 +1190,15 @@
     <tr><td>Computer use</td><td>Universal reach, including legacy user interfaces</td><td>No API will ever exist and volume justifies latency; sandbox mandatory</td></tr>
     <tr><td>RPA under agent control</td><td>Reuses the deterministic bot estate you already paid for</td><td>Stable, unchanging screens inside agent workflows</td></tr>
   </table>
-  <div class="movebox"><b>The move.</b> Treat computer use as reach, not default: APIs first, screen agents for the systems that will never get one, always inside a sandbox with gated writes and a replayable trail.</div>
+  <div class="movebox sw"><span class="swlab">So what</span>Treat computer use as reach, not default: APIs first, screen agents for the systems that will never get one, always inside a sandbox with gated writes and a replayable trail.</div>
   <div class="pnum">16</div>
 </div>
 
 <!-- ============ 9 · LAYER 5 ============ -->
-<div class="page">
+<div class="page lay">
   <div class="eyebrow">Section 04 · Layer 5 · Control dimension · First gate layer</div>
   <h1>Identity, permissions, and security</h1>
-  <div class="coauth"><div class="cm cm-open">+</div><div class="ct"><span class="lb">Layer co-author</span><b>Open slot</b> &#183; practitioner co-authors welcome: fabian.hildesheim@cdtm.com</div></div>
+  <div class="coauth"><div class="row1"><div class="cm">K</div><div class="ct"><span class="lb">Co-author</span><b>To be announced</b> &#183; Founder, kontext.security</div><div class="colg">kontext.security</div></div><div class="cob"><b>kontext.security</b> co-authors this layer. Company introduction and the practitioner view of agent identity and containment follow in the next revision.</div></div>
   <div class="cols">
     <div class="rail">
       <div class="callout"><div class="cnum">82%</div><div class="ccap">of enterprises have discovered AI agents that IT did not know existed (Cloud Security Alliance, 2026)</div></div>
@@ -1212,22 +1238,22 @@
 
   <div class="specwrap"><div class="speclabel">What good looks like, by level</div>
   <div class="spec">
-    <div class="sp"><b>Level 2</b><span>SSO and DLP for humans only</span></div>
-    <div class="sp"><b>Level 3</b><span>Shared keys, borrowed OAuth</span></div>
-    <div class="sp hot"><b>Level 4</b><span>Per-agent identity, kill switch, audit</span></div>
-    <div class="sp"><b>Level 5</b><span>Delegation chains, sandbox default</span></div>
-    <div class="sp"><b>Level 6</b><span>Identity fabric incl. external agents</span></div>
+    <div class="sp"><b>Level 1</b><span>SSO and DLP for humans only</span></div>
+    <div class="sp"><b>Level 2</b><span>Shared keys, borrowed OAuth</span></div>
+    <div class="sp hot"><b>Level 3</b><span>Per-agent identity, kill switch, audit</span></div>
+    <div class="sp"><b>Level 4</b><span>Delegation chains, sandbox default</span></div>
+    <div class="sp"><b>Level 5</b><span>Identity fabric incl. external agents</span></div>
   </div></div>
   <div class="diag"><b>DIAGNOSTIC&nbsp;&nbsp;</b> Could you shut down a misbehaving agent in minutes, and has that ever been tested? Can your logs distinguish agent actions from human actions?</div>
-  <div class="movebox"><b>The move.</b> Identity per agent plus gates on writes. Together with layer 7, this is the crossing that turns pilots into governable operations.</div>
+  <div class="movebox sw"><span class="swlab">So what</span>Identity per agent plus gates on writes. Together with layer 7, this is the crossing that turns pilots into governable operations.</div>
   <div class="pnum">17</div>
 </div>
 
 <!-- ============ 10 · LAYER 6 ============ -->
-<div class="page">
+<div class="page lay">
   <div class="eyebrow">Section 04 · Layer 6 · Configuration dimension</div>
   <h1>Deployment and operations</h1>
-  <div class="coauth"><div class="cm cm-open">+</div><div class="ct"><span class="lb">Layer co-author</span><b>Open slot</b> &#183; practitioner co-authors welcome: fabian.hildesheim@cdtm.com</div></div>
+  <div class="coauth"><div class="row1"><div class="cm cm-open">+</div><div class="ct"><span class="lb">Co-author</span><b>Open slot</b> &#183; practitioner co-authors welcome: fabian.hildesheim@cdtm.com</div></div><div class="cob">A founder building in this layer adds their photo, a short company introduction in this space, and one review pass of the page.</div></div>
   <div class="cols">
     <div class="rail">
       <div class="callout"><div class="cnum">80%</div><div class="ccap">of companies using agents say agents have already taken unintended actions (SailPoint and Dimensional Research, 2025)</div></div>
@@ -1266,22 +1292,22 @@
 
   <div class="specwrap"><div class="speclabel">What good looks like, by level</div>
   <div class="spec">
-    <div class="sp"><b>Level 2</b><span>Vendor cloud, click-ops</span></div>
-    <div class="sp"><b>Level 3</b><span>Laptop scripts, no rollback</span></div>
-    <div class="sp hot"><b>Level 4</b><span>Sandboxes, staging, versioning</span></div>
-    <div class="sp"><b>Level 5</b><span>Canaries, failover, self-healing</span></div>
-    <div class="sp"><b>Level 6</b><span>Autonomous ops within policy</span></div>
+    <div class="sp"><b>Level 1</b><span>Vendor cloud, click-ops</span></div>
+    <div class="sp"><b>Level 2</b><span>Laptop scripts, no rollback</span></div>
+    <div class="sp hot"><b>Level 3</b><span>Sandboxes, staging, versioning</span></div>
+    <div class="sp"><b>Level 4</b><span>Canaries, failover, self-healing</span></div>
+    <div class="sp"><b>Level 5</b><span>Autonomous ops within policy</span></div>
   </div></div>
   <div class="diag"><b>DIAGNOSTIC&nbsp;&nbsp;</b> Where does the flagship AI workflow physically run, and what happens when it fails at 2am? Could you roll back last week's prompt change?</div>
-  <div class="movebox"><b>The move.</b> Give the flagship workflow real environments, version control, and a named on-call owner. Then, and only then, widen its autonomy one rung.</div>
+  <div class="movebox sw"><span class="swlab">So what</span>Give the flagship workflow real environments, version control, and a named on-call owner. Then, and only then, widen its autonomy one rung.</div>
   <div class="pnum">18</div>
 </div>
 
 <!-- ============ 11 · LAYER 7 ============ -->
-<div class="page">
+<div class="page lay">
   <div class="eyebrow">Section 04 · Layer 7 · Cost dimension · Second gate layer</div>
   <h1>Observability and cost</h1>
-  <div class="coauth"><div class="cm cm-open">+</div><div class="ct"><span class="lb">Layer co-author</span><b>Open slot</b> &#183; practitioner co-authors welcome: fabian.hildesheim@cdtm.com</div></div>
+  <div class="coauth"><div class="row1"><div class="cm cm-open">+</div><div class="ct"><span class="lb">Co-author</span><b>Open slot</b> &#183; practitioner co-authors welcome: fabian.hildesheim@cdtm.com</div></div><div class="cob">A founder building in this layer adds their photo, a short company introduction in this space, and one review pass of the page.</div></div>
   <div class="cols">
     <div class="rail">
       <div class="callout"><div class="cnum">26%</div><div class="ccap">of $1B+ organizations have real-time visibility into what their AI agents cost (KPMG AI Pulse, June 2026)</div></div>
@@ -1321,22 +1347,22 @@
 
   <div class="specwrap"><div class="speclabel">What good looks like, by level</div>
   <div class="spec">
-    <div class="sp"><b>Level 2</b><span>Invoices and seat counts</span></div>
-    <div class="sp"><b>Level 3</b><span>Token dashboards, no attribution</span></div>
-    <div class="sp hot"><b>Level 4</b><span>Traces, cost per use case, budgets</span></div>
-    <div class="sp"><b>Level 5</b><span>Cost per outcome drives routing</span></div>
-    <div class="sp"><b>Level 6</b><span>Real-time AI P&amp;L</span></div>
+    <div class="sp"><b>Level 1</b><span>Invoices and seat counts</span></div>
+    <div class="sp"><b>Level 2</b><span>Token dashboards, no attribution</span></div>
+    <div class="sp hot"><b>Level 3</b><span>Traces, cost per use case, budgets</span></div>
+    <div class="sp"><b>Level 4</b><span>Cost per outcome drives routing</span></div>
+    <div class="sp"><b>Level 5</b><span>Real-time AI P&amp;L</span></div>
   </div></div>
   <div class="diag"><b>DIAGNOSTIC&nbsp;&nbsp;</b> Could you produce last month's AI spend per team within an hour? What is the cost per completed task for the workflow that matters most?</div>
-  <div class="movebox"><b>The move.</b> One trace log through the gateway, then the attribution join: token to team to use case to outcome. Everything else in this report compounds on this.</div>
+  <div class="movebox sw"><span class="swlab">So what</span>One trace log through the gateway, then the attribution join: token to team to use case to outcome. Everything else in this report compounds on this.</div>
   <div class="pnum">19</div>
 </div>
 
 <!-- ============ 12 · LAYER 8 ============ -->
-<div class="page tightpg">
+<div class="page lay">
   <div class="eyebrow">Section 04 · Layer 8 · Cultivation dimension · The autonomy throttle</div>
   <h1>Evals and improvement</h1>
-  <div class="coauth"><div class="cm cm-open">+</div><div class="ct"><span class="lb">Layer co-author</span><b>Open slot</b> &#183; practitioner co-authors welcome: fabian.hildesheim@cdtm.com</div></div>
+  <div class="coauth"><div class="row1"><div class="cm cm-open">+</div><div class="ct"><span class="lb">Co-author</span><b>Open slot</b> &#183; practitioner co-authors welcome: fabian.hildesheim@cdtm.com</div></div><div class="cob">A founder building in this layer adds their photo, a short company introduction in this space, and one review pass of the page.</div></div>
   <div class="cols">
     <div class="rail">
       <div class="callout"><div class="cnum">10-15%</div><div class="ccap">of nearly 900 GenAI use cases drove about 80 percent of the value at Johnson &amp; Johnson; the rest were shut down (Wall Street Journal, April 2025)</div></div>
@@ -1376,22 +1402,22 @@
 
   <div class="specwrap"><div class="speclabel">What good looks like, by level</div>
   <div class="spec">
-    <div class="sp"><b>Level 2</b><span>Thumbs up or down</span></div>
-    <div class="sp"><b>Level 3</b><span>Spot checks and anecdotes</span></div>
-    <div class="sp hot"><b>Level 4</b><span>Golden sets, gated changes, replay</span></div>
-    <div class="sp"><b>Level 5</b><span>Online evals, closed loop</span></div>
-    <div class="sp"><b>Level 6</b><span>Self-improvement under governance</span></div>
+    <div class="sp"><b>Level 1</b><span>Thumbs up or down</span></div>
+    <div class="sp"><b>Level 2</b><span>Spot checks and anecdotes</span></div>
+    <div class="sp hot"><b>Level 3</b><span>Golden sets, gated changes, replay</span></div>
+    <div class="sp"><b>Level 4</b><span>Online evals, closed loop</span></div>
+    <div class="sp"><b>Level 5</b><span>Self-improvement under governance</span></div>
   </div></div>
   <div class="diag"><b>DIAGNOSTIC&nbsp;&nbsp;</b> If someone changed a prompt today, what would break silently, and would you know? Has anyone seeded known errors to test whether reviewers catch them?</div>
-  <div class="movebox"><b>The move.</b> Build a golden set from 20 real cases of the flagship workflow and gate every change on it. This layer is the throttle that safely opens layers 4 and 6.</div>
+  <div class="movebox sw"><span class="swlab">So what</span>Build a golden set from 20 real cases of the flagship workflow and gate every change on it. This layer is the throttle that safely opens layers 4 and 6.</div>
   <div class="pnum">20</div>
 </div>
 
 <!-- ============ 13 · LAYER 9 ============ -->
-<div class="page tightpg">
+<div class="page lay">
   <div class="eyebrow">Section 04 · Layer 9 · Cultivation dimension</div>
   <h1>People and operating model</h1>
-  <div class="coauth"><div class="cm cm-open">+</div><div class="ct"><span class="lb">Layer co-author</span><b>Open slot</b> &#183; practitioner co-authors welcome: fabian.hildesheim@cdtm.com</div></div>
+  <div class="coauth"><div class="row1"><div class="cm cm-open">+</div><div class="ct"><span class="lb">Co-author</span><b>Open slot</b> &#183; practitioner co-authors welcome: fabian.hildesheim@cdtm.com</div></div><div class="cob">A founder building in this layer adds their photo, a short company introduction in this space, and one review pass of the page.</div></div>
   <div class="cols">
     <div class="rail">
       <div class="callout"><div class="cnum">3x</div><div class="ccap">employees use AI at three times the level their leadership believes (McKinsey Superagency, January 2025)</div></div>
@@ -1431,14 +1457,14 @@
 
   <div class="specwrap"><div class="speclabel">What good looks like, by level</div>
   <div class="spec">
-    <div class="sp"><b>Level 2</b><span>IT admin owns licenses</span></div>
-    <div class="sp"><b>Level 3</b><span>AI lead and CoE, champions</span></div>
-    <div class="sp hot"><b>Level 4</b><span>Named owner per workflow and agent</span></div>
-    <div class="sp"><b>Level 5</b><span>Fleet managers, pattern marketplace</span></div>
-    <div class="sp"><b>Level 6</b><span>Organization designed around fleets</span></div>
+    <div class="sp"><b>Level 1</b><span>IT admin owns licenses</span></div>
+    <div class="sp"><b>Level 2</b><span>AI lead and CoE, champions</span></div>
+    <div class="sp hot"><b>Level 3</b><span>Named owner per workflow and agent</span></div>
+    <div class="sp"><b>Level 4</b><span>Fleet managers, pattern marketplace</span></div>
+    <div class="sp"><b>Level 5</b><span>Organization designed around fleets</span></div>
   </div></div>
   <div class="diag"><b>DIAGNOSTIC&nbsp;&nbsp;</b> Who is accountable, by name, if the flagship AI workflow fails? Are shadow builders drafted into ownership or treated as offenders?</div>
-  <div class="movebox"><b>The move.</b> Run the census with amnesty, register every agent with a named owner, and put your best shadow builders in charge of the patterns everyone else reuses.</div>
+  <div class="movebox sw"><span class="swlab">So what</span>Run the census with amnesty, register every agent with a named owner, and put your best shadow builders in charge of the patterns everyone else reuses.</div>
   <div class="pnum">21</div>
 </div>
 

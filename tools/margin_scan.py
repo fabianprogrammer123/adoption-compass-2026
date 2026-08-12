@@ -13,7 +13,7 @@ with tempfile.TemporaryDirectory() as td:
         im = np.array(Image.open(f).convert("L")); h, w = im.shape
         pg = int(f.rsplit("-", 1)[1].split(".")[0])
         col = im[:, 60:660]
-        dark = np.where((col < 120).any(axis=1))[0]
+        dark = np.where(((col < 120).sum(axis=1)) >= 6)[0]  # >=6 dark px = text/data, not a hairline or accent border
         mm = round((h - (dark.max() if len(dark) else 0)) / 100 * 25.4, 1)
         if mm < 12.5 and pg != 1:
             bad.append((pg, mm))
