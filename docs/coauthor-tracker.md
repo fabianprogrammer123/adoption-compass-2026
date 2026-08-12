@@ -4,12 +4,12 @@ Goal: every layer page featured by a practitioner startup founder. Status as of 
 
 | Page | Layer | Status | Co-author | Company | LinkedIn | Photo | Candidates to approach | Next step / notes |
 |---|---|---|---|---|---|---|---|---|
-| 11 | Models and inference | OPEN | — | — | — | — | Baseten, OpenRouter, Predibase | |
+| 11 | Models and inference | COMMITTED | TBD | Lyceum | | no | — | Get founder name, title, square headshot, company domain for logo |
 | 13 | Orchestration and architecture | FILLED | Jakob Mayer | OSM Data | [/in/ja-may](https://www.linkedin.com/in/ja-may/) | yes | — | Confirm title: report says "Founder and CEO", LinkedIn says Co-Founder |
 | 14 | Knowledge, context, and memory | FILLED | Justinas Zaliaduonis | fermisense | [/in/justinz](https://www.linkedin.com/in/justinz/) | yes | — | Authors' lab; disclosed on page 3 |
 | 15 | Tools and actions | OPEN | — | — | — | — | Composio, Arcade, Smithery | |
 | 16 | Computer use and reinforcement learning (deep dive) | FILLED | Ingmar Klein | Huzzle Labs | [/in/ingmar-klein](https://www.linkedin.com/in/ingmar-klein/) | yes | — | |
-| 17 | Identity, permissions, and security | OPEN | — | — | — | — | Astrix Security, Token Security, Lakera | |
+| 17 | Identity, permissions, and security | COMMITTED | TBD | Kontext | | no | — | Get founder name, title, square headshot, company domain for logo |
 | 18 | Deployment and operations | OPEN | — | — | — | — | E2B, Modal, Daytona, Runloop | |
 | 19 | Observability and cost | OPEN | — | — | — | — | Langfuse, Helicone, AgentOps, Vantage | |
 | 20 | Evals and improvement | OPEN | — | — | — | — | Braintrust, Patronus AI, promptfoo | |
