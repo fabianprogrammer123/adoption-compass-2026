@@ -5,7 +5,7 @@
 <title>Enterprise Agentic AI Adoption Compass 2026 (Blue-Violet Edition)</title>
 <style>
   :root{
-    --navy:#231849; --blue:#6C4CF1; --cyan:#8FA8FF; --lcyan:#AAE6F0;
+    --navy:#231849; --blue:#6C4CF1; --lime:#D9F24E; --cyan:#8FA8FF; --lcyan:#AAE6F0;
     --ink:#212934; --gray:#6F6890; --soft:#9D96B4; --hair:#E2DDEF; --tint:#F0EBFA;
   }
   *{margin:0;padding:0;box-sizing:border-box;}
@@ -17,7 +17,7 @@
   .pnum{position:absolute;bottom:9mm;right:18mm;font-size:8pt;color:var(--gray);background:rgba(255,255,255,0.85);padding:0 1mm;}
 
   .eyebrow::before{content:"\2726  ";color:#8FA8FF;}
-  .eyebrow{font-size:7pt;letter-spacing:0.22em;text-transform:uppercase;color:var(--blue);font-weight:700;margin-bottom:2.6mm;}
+  .eyebrow{font-size:7.8pt;letter-spacing:0.01em;text-transform:none;color:var(--blue);font-weight:600;margin-bottom:2.6mm;}
   h1{font-family:Charter,Georgia,serif;font-weight:700;color:var(--navy);font-size:20pt;line-height:1.14;letter-spacing:-0.006em;margin-bottom:3.4mm;max-width:170mm;}
   p.body{font-size:8.9pt;line-height:1.42;margin-bottom:2.2mm;color:var(--ink);}
   p.body b{color:var(--navy);}
@@ -69,7 +69,7 @@
 
   /* level spectrum */
   .specwrap{margin-top:1.8mm;}
-  .speclabel{font-size:7pt;font-weight:700;letter-spacing:0.16em;text-transform:uppercase;color:var(--navy);margin-bottom:1.2mm;}
+  .speclabel{font-size:7.4pt;font-weight:700;letter-spacing:0;text-transform:none;color:var(--navy);margin-bottom:1.2mm;}
   .spec{display:flex;border-top:0.7pt solid var(--navy);}
   .sp{flex:1;position:relative;padding:1.5mm 3mm 0 0;}
   .sp::before{content:"";position:absolute;top:-0.35mm;left:0;width:0.35mm;height:2.4mm;background:var(--soft);}
@@ -107,9 +107,11 @@
   .steps b{color:var(--navy);}
 
   /* at a glance */
-  .gl{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:55mm;gap:3mm;margin-top:4.6mm;}
+  .gcl{display:flex;align-items:center;gap:2mm;font-size:8.4pt;font-weight:700;color:var(--navy);margin:2mm 0 1mm;}
+  .gcl::before{content:"";width:2.6mm;height:2.6mm;background:var(--lime);}
+  .gl{margin-top:1.2mm !important;display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:51mm;gap:2.4mm;}
   .gt{border-radius:2.4mm;border:0.5pt solid var(--hair);padding:3.8mm 4mm;position:relative;overflow:hidden;background:#fff;}
-  .gt .gk{font-size:6.2pt;font-weight:700;letter-spacing:0.18em;text-transform:uppercase;color:var(--blue);margin-bottom:1.6mm;}
+  .gt .gk{font-size:8pt;font-weight:700;letter-spacing:0;text-transform:none;color:var(--navy);line-height:1.3;margin-bottom:1.4mm;}
   .gt .gnum{font-family:Charter,Georgia,serif;font-weight:700;color:var(--navy);font-size:23pt;line-height:0.98;letter-spacing:-0.01em;}
   .gt .gnum small{font-size:11pt;font-weight:700;}
   .gt .gcap{font-size:7.2pt;color:var(--gray);line-height:1.4;margin-top:1.6mm;}
@@ -132,7 +134,7 @@
 
   /* benchmark map */
   .bmk{border-top:0.8pt solid var(--navy);padding-top:1.6mm;}
-  .bgrp{font-size:6.8pt;font-weight:700;letter-spacing:0.18em;text-transform:uppercase;color:var(--blue);margin:2.6mm 0 1.6mm;}
+  .bgrp{font-size:7.6pt;font-weight:700;letter-spacing:0;text-transform:none;color:var(--blue);margin:2.6mm 0 1.6mm;}
   .brow{display:flex;align-items:flex-start;margin-bottom:2.4mm;}
   .bl2{width:63mm;flex:none;padding-right:5mm;}
   .bl2 b{font-size:8.2pt;color:var(--navy);}
@@ -155,7 +157,7 @@
   .coauth img.face{width:7.4mm;height:7.4mm;border-radius:50%;object-fit:cover;flex:none;}
   .coauth .ct{font-size:7.6pt;color:var(--gray);}
   .coauth .ct b{color:var(--navy);}
-  .movebox .swlab{display:block;font-size:6.6pt;font-weight:700;letter-spacing:0.2em;text-transform:uppercase;color:var(--blue);margin-bottom:0.7mm;}
+  .movebox .swlab{display:block;font-size:7.4pt;font-weight:700;letter-spacing:0;text-transform:none;color:var(--blue);margin-bottom:0.7mm;}
   .movebox.sw{border-left:2.6pt solid var(--blue);}
   .lay p.body{margin-bottom:1.5mm;line-height:1.36;}
   .lay .exhibit{margin-top:2mm;}
@@ -178,7 +180,7 @@
   .cwl.tall{height:4.6mm;}
   .cwtxt{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:9.5pt;font-weight:600;letter-spacing:0.02em;color:#FFFFFF;opacity:0.92;}
   .cm-open{background:#fff !important;border:0.5pt dashed var(--soft);color:var(--soft);font-size:10pt;}
-  .coauth .ct .lb{font-size:5.6pt;letter-spacing:0.16em;text-transform:uppercase;color:var(--soft);margin-right:2mm;}
+  .coauth .ct .lb{font-size:6.4pt;letter-spacing:0.02em;text-transform:none;color:var(--soft);margin-right:2mm;}
   .tightpg p.body{margin-bottom:1.6mm;line-height:1.37;}
   .tightpg .exhibit{margin-top:2.2mm;}
   .tightpg table.players td{padding:1.15mm 0 0.95mm;}
@@ -297,83 +299,83 @@
   <div class="ibitem"><div class="ibn">5</div><p><b>Read your company as a nine-row profile, not a single score.</b> Organizations are uneven by construction: a Level 4 observability layer can sit on a Level 2 knowledge layer. The profile locates the risk (any layer two levels below the median breaks what is built on top) and the plan (the upgrade moves of the lagging layers, in dependency order).</p></div>
   <div class="ibitem"><div class="ibn">6</div><p><b>The endgame is intelligence ownership.</b> Once workflows are instrumented, their traces become training data: the authors' published experiment turned $500 of reinforcement training into a 9B specialist that beats every frontier configuration at 1/68 the cost. Computer use extends the same logic to systems that will never get an API. Instrumentation is the asset, not the overhead.</p></div>
   <div class="ibitem"><div class="ibn">7</div><p><b>Crossing from pilots to instrumented operations pays compound interest.</b> Governed projects reach production at a multiple of ungoverned ones, measured unit economics replace anecdotes in the board conversation, and each instrumented workflow makes the next one cheaper. The layer that sees the work becomes the layer that runs it.</p></div>
-  <div class="toc">
-    <div class="tl">Contents</div>
-    <div class="row"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The compass at a glance</b><span>page 3</span></div>
-    <div class="row"><b>01 &nbsp; The adoption journey</b><span>pages 4-6</span></div>
-    <div class="row"><b>02 &nbsp; The adoption reality and the benchmark map</b><span>pages 7-9</span></div>
-    <div class="row"><b>03 &nbsp; The matrix</b><span>page 10</span></div>
-    <div class="row"><b>04 &nbsp; The nine layers and two deep dives</b><span>pages 11-21</span></div>
-    <div class="row"><b>05 &nbsp; The crossing sequence and the first 90 days</b><span>page 22</span></div>
-    <div class="row"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; References</b><span>page 23</span></div>
-    <div class="row"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; About this report, method, and authors</b><span>page 24</span></div>
-  </div>
   <div class="pnum">2</div>
+</div>
+
+<!-- ============ 1b · CONTENTS ============ -->
+<div class="page">
+<div class="eyebrow">Contents</div>
+<h1>What is in this compass, and who built each layer with us</h1>
+<style>.trow{display:flex;align-items:baseline;gap:3mm;border-bottom:0.3pt solid var(--hair);padding:1.9mm 0;font-size:8.8pt;max-width:176mm;}.tn{width:6mm;flex:none;color:var(--blue);font-weight:700;}.tt{flex:1;color:var(--navy);font-weight:600;}.tc{width:62mm;flex:none;color:var(--gray);font-size:7.6pt;}.tp{width:16mm;flex:none;text-align:right;color:var(--gray);font-size:7.8pt;}.tsec{margin:4.5mm 0 1mm;font-size:8pt;font-weight:700;color:var(--navy);display:flex;align-items:center;gap:2mm;}.tsec::before{content:"";width:2.6mm;height:2.6mm;background:var(--lime);}</style>
+<div class="tsec">The argument</div><div class="trow"><span class="tn"></span><span class="tt">Executive summary</span><span class="tc"></span><span class="tp">2</span></div><div class="trow"><span class="tn"></span><span class="tt">The compass at a glance</span><span class="tc"></span><span class="tp">4</span></div><div class="trow"><span class="tn"></span><span class="tt">The adoption journey, the jagged frontier, the timeline</span><span class="tc"></span><span class="tp">5-7</span></div><div class="trow"><span class="tn"></span><span class="tt">Adoption reality, evidence, and the benchmark map</span><span class="tc"></span><span class="tp">8-10</span></div><div class="trow"><span class="tn"></span><span class="tt">The matrix: nine layers by seven levels</span><span class="tc"></span><span class="tp">11</span></div><div class="tsec">The nine layers, with their co-authors</div><div class="trow"><span class="tn">1</span><span class="tt">Models and inference</span><span class="tc">Lyceum (co-author to be announced)</span><span class="tp">12</span></div><div class="trow"><span class="tn"></span><span class="tt">Deep dive: intelligence ownership</span><span class="tc">Action Layer &#183; Jo&#235;l Hainzl</span><span class="tp">13</span></div><div class="trow"><span class="tn">2</span><span class="tt">Orchestration and architecture</span><span class="tc">OSM Data &#183; Jakob Mayer</span><span class="tp">14</span></div><div class="trow"><span class="tn">3</span><span class="tt">Knowledge, context, and memory</span><span class="tc">fermisense &#183; Justinas Zaliaduonis</span><span class="tp">15</span></div><div class="trow"><span class="tn">4</span><span class="tt">Tools and actions</span><span class="tc">Attention Engineering &#183; Julian Windeck</span><span class="tp">16</span></div><div class="trow"><span class="tn"></span><span class="tt">Deep dive: computer use and reinforcement learning</span><span class="tc">Huzzle Labs &#183; Ingmar Klein</span><span class="tp">17</span></div><div class="trow"><span class="tn">5</span><span class="tt">Identity, permissions, and security</span><span class="tc">kontext.security (co-author to be announced)</span><span class="tp">18</span></div><div class="trow"><span class="tn">6</span><span class="tt">Deployment and operations</span><span class="tc">open slot</span><span class="tp">19</span></div><div class="trow"><span class="tn">7</span><span class="tt">Observability and cost</span><span class="tc">open slot</span><span class="tp">20</span></div><div class="trow"><span class="tn">8</span><span class="tt">Evals and improvement</span><span class="tc">open slot</span><span class="tp">21</span></div><div class="trow"><span class="tn">9</span><span class="tt">People and operating model</span><span class="tc">open slot</span><span class="tp">22</span></div><div class="tsec">The way out</div><div class="trow"><span class="tn"></span><span class="tt">The crossing sequence and the first 90 days</span><span class="tc"></span><span class="tp">23</span></div><div class="trow"><span class="tn"></span><span class="tt">Sources</span><span class="tc"></span><span class="tp">24</span></div><div class="trow"><span class="tn"></span><span class="tt">About this report, method, and authors</span><span class="tc"></span><span class="tp">25</span></div>
+<div class="pnum">3</div>
 </div>
 
 <!-- ============ 2b · AT A GLANCE ============ -->
 <div class="page">
   <div class="eyebrow">The compass at a glance</div>
   <h1 style="font-size:17.5pt;">Agentic AI adoption will be a make-or-break challenge across all industries</h1>
-  <p class="body" style="max-width:176mm;margin-bottom:0;">Every figure on this page returns later in the report with its method and full source; use it as the briefing before the briefing.</p>
-  <div class="gl">
+  
+  <div class="gcl">Where agent programs actually stand</div><div class="gl">
     <div class="gt dk w2 h2">
-      <div class="gk">The paradox</div>
-      <div class="gnum">88%</div><div class="gcap" style="margin-top:2.6mm;max-width:64mm;">of agent pilots <b>never reach production</b>; evaluation and observability gaps are the number one blocker, named by 64 percent.</div><div class="gcap" style="margin-top:3mm;max-width:64mm;">Yet the pilots that cross pay back in a median of <b>5.1 months</b>, and teams with governance frameworks ship <b>12&#215; more agents</b> to production. The gap is instrumentation, and it is the subject of this report.</div><div class="gcap" style="margin-top:3mm;max-width:64mm;">Where enterprises sit today, by level:</div><svg viewBox="0 0 240 34" style="width:88%;margin-top:1mm;"><rect x="0" y="6" width="25" height="11" fill="#D8CCF7"/><text x="13" y="30" font-size="6.6" text-anchor="middle" fill="#8FA3B8">0-1</text><rect x="26" y="6" width="81" height="11" fill="#B4A3EE"/><text x="67" y="30" font-size="6.6" text-anchor="middle" fill="#8FA3B8">2</text><rect x="109" y="6" width="84" height="11" fill="#8B6FE4"/><text x="150" y="30" font-size="6.6" text-anchor="middle" fill="#8FA3B8">3</text><rect x="193" y="6" width="33" height="11" fill="#5D3BD8"/><text x="210" y="30" font-size="6.6" text-anchor="middle" fill="#8FA3B8">4</text><rect x="227" y="6" width="10" height="11" fill="#4527B8"/><text x="232" y="30" font-size="6.6" text-anchor="middle" fill="#8FA3B8">5</text><rect x="238" y="6" width="3" height="11" fill="#33205F"/><text x="240" y="14" font-size="6.6" text-anchor="end" fill="#8FA3B8"> </text></svg><div class="gsrc">Anaconda and Forrester, replicated by a16z and MIT Sloan (2026); Databricks (2026) &#183; pages 7-8</div>
+      <div class="gk">Most agent pilots die; instrumentation is the difference</div>
+      <div class="gnum">88%</div><div class="gcap" style="margin-top:2.6mm;max-width:64mm;">of agent pilots <b>never reach production</b>; evaluation and observability gaps are the number one blocker, named by 64 percent.</div><div class="gcap" style="margin-top:3mm;max-width:64mm;">Yet the pilots that cross pay back in a median of <b>5.1 months</b>, and teams with governance frameworks ship <b>12&#215; more agents</b> to production. The gap is instrumentation, and it is the subject of this report.</div><div class="gcap" style="margin-top:3mm;max-width:64mm;">Share of enterprises by adoption level, from Level 0-1 (shadow use) to Level 6 (agent-operated), %:</div><svg viewBox="0 0 240 36" style="width:88%;margin-top:1mm;"><rect x="0" y="8" width="25" height="11" fill="#D8CCF7"/><text x="13" y="31" font-size="6.4" text-anchor="middle" fill="#8FA3B8">L0-1</text><text x="13" y="5.5" font-size="6.2" text-anchor="middle" fill="#C8D4E4">10%</text><rect x="26" y="8" width="81" height="11" fill="#B4A3EE"/><text x="67" y="31" font-size="6.4" text-anchor="middle" fill="#8FA3B8">L2</text><text x="67" y="5.5" font-size="6.2" text-anchor="middle" fill="#C8D4E4">32%</text><rect x="109" y="8" width="84" height="11" fill="#8B6FE4"/><text x="150" y="31" font-size="6.4" text-anchor="middle" fill="#8FA3B8">L3</text><text x="150" y="5.5" font-size="6.2" text-anchor="middle" fill="#C8D4E4">33%</text><rect x="193" y="8" width="33" height="11" fill="#5D3BD8"/><text x="210" y="31" font-size="6.4" text-anchor="middle" fill="#8FA3B8">L4</text><text x="210" y="5.5" font-size="6.2" text-anchor="middle" fill="#C8D4E4">13%</text><rect x="227" y="8" width="10" height="11" fill="#4527B8"/><text x="232" y="31" font-size="6.4" text-anchor="middle" fill="#8FA3B8">L5</text><text x="232" y="5.5" font-size="6.2" text-anchor="middle" fill="#C8D4E4">4%</text><rect x="238" y="8" width="3" height="11" fill="#33205F"/></svg><div class="gsrc">Anaconda and Forrester, replicated by a16z and MIT Sloan (2026); Databricks (2026) &#183; pages 8-8</div>
     </div>
     <div class="gt">
-      <div class="gk">The hidden tax</div><div class="gnum">6.4<small> h/wk</small></div><div class="gcap">spent supervising AI output ("botsitting"); 69 percent of workers admit shipping unverified AI work.</div><svg viewBox="0 0 120 34" style="width:82%;margin-top:2.2mm;"><text x="0" y="9" font-size="7" fill="#6F6890">saved</text><rect x="34" y="2" width="74" height="8" fill="#6C4CF1"/><text x="34" y="30" font-size="7" fill="#6F6890" ><tspan>lost</tspan></text><rect x="34" y="22" width="43" height="8" fill="#231849"/><text x="111" y="9" font-size="7" font-weight="700" fill="#231849" text-anchor="end"> </text></svg><div class="gsrc">Glean Work AI Index, June 2026 (n=6,000) &#183; page 20</div>
+      <div class="gk">Verification is eating the gains; build evals in</div><div class="gnum">6.4<small> h/wk</small></div><div class="gcap">spent supervising AI output ("botsitting"); 69 percent of workers admit shipping unverified AI work.</div><svg viewBox="0 0 120 34" style="width:82%;margin-top:2.2mm;"><text x="0" y="9" font-size="7" fill="#6F6890">saved</text><rect x="34" y="2" width="74" height="8" fill="#6C4CF1"/><text x="34" y="30" font-size="7" fill="#6F6890" ><tspan>lost</tspan></text><rect x="34" y="22" width="43" height="8" fill="#231849"/><text x="111" y="9" font-size="7" font-weight="700" fill="#231849" text-anchor="end"> </text></svg><div class="gsrc">Glean Work AI Index, June 2026 (n=6,000) &#183; page 22</div>
     </div>
     <div class="gt">
-      <div class="gk">The clock</div>
+      <div class="gk">Plan on four-month cycles, not annual budgets</div>
       <div class="gnum">2&#215;<small> / 4 mo</small></div>
       <div class="gcap">Agent task horizons double every ~4 months; 12-hour tasks arrived in 2026.</div>
       <svg viewBox="0 0 120 40" style="width:74%;margin-top:2.4mm;"><path d="M 8.0 33.4 C 10.5 33.3 18.0 33.1 23.0 32.9 C 28.0 32.7 33.0 32.5 38.0 32.1 C 43.0 31.7 48.0 31.4 53.0 30.7 C 58.0 30.0 63.0 29.3 68.0 28.2 C 73.0 27.1 78.0 25.9 83.0 24.0 C 88.0 22.1 93.0 20.0 98.0 16.7 C 103.0 13.4 110.5 6.1 113.0 4.0" fill="none" stroke="#6C4CF1" stroke-width="2.2" stroke-linecap="round"/><circle cx="113" cy="4" r="7" fill="#6C4CF1" opacity="0.16"/><circle cx="113" cy="4" r="3.2" fill="#6C4CF1"/></svg>
-      <div class="gsrc">METR (2026) · page 6</div>
+      <div class="gsrc">METR (2026) · page 7</div>
     </div>
     <div class="gt w2">
-      <div class="gk">The jagged frontier</div>
+      <div class="gk">Deploy where the frontier is sharp, not everywhere</div>
       <div class="gnum" style="font-size:17pt;">3.4% of workers, 37.2% of usage</div>
       <svg viewBox="0 0 250 46" style="width:96%;margin-top:2.2mm;"><text x="0" y="12" font-size="8" fill="#4F466E">share of AI usage</text><rect x="86" y="4" width="128" height="10" fill="#6C4CF1"/><text x="219" y="12" font-size="8.5" font-weight="700" fill="#231849">37.2%</text><text x="0" y="32" font-size="8" fill="#4F466E">share of US workers</text><rect x="86" y="24" width="12" height="10" fill="#231849"/><text x="103" y="32" font-size="8.5" font-weight="700" fill="#231849">3.4%</text><text x="86" y="44" font-size="7" fill="#9D96B4">computer and mathematical occupations</text></svg>
-      <div class="gsrc">Anthropic Economic Index; 44% of enterprise API traffic · page 5</div>
+      <div class="gsrc">Anthropic Economic Index; 44% of enterprise API traffic · page 6</div>
     </div>
+    </div><div class="gcl">The frontier compounds while claims outrun reality</div><div class="gl">
     <div class="gt">
-      <div class="gk">The gate</div>
+      <div class="gk">Fix security first; it caps everything above it</div>
       <div class="gnum">62%</div>
       <div class="gcap">name security and risk the number one obstacle to scaled agents; nothing else comes close.</div>
-      <div class="gsrc">AI Index 2026 · page 8</div>
+      <div class="gsrc">AI Index 2026 · page 9</div>
     </div>
     <div class="gt">
-      <div class="gk">The thin edge</div>
+      <div class="gk">Trust staged tests, not self-reports</div>
       <div class="gnum">57% <small>vs &lt;10%</small></div>
       <div class="gcap">run multi-step agent workflows by self-report; neutral staging finds fully scaled use in <b>single digits</b> per function.</div>
-      <div class="gsrc">Anthropic and Material; AI Index 2026 · page 8</div>
-    </div>
-    <div class="gt w2">
-      <div class="gk">The endgame</div>
-      <div class="gnum" style="font-size:17pt;">$500 beats the frontier at 1/68 the cost</div>
-      <svg viewBox="0 0 240 52" style="width:96%;margin-top:1.6mm;"><line x1="10" y1="35" x2="230" y2="35" stroke="#E2DDEF" stroke-width="0.8"/><circle cx="18" cy="34" r="3" fill="#9D96B4"/><circle cx="44" cy="37" r="3" fill="#9D96B4"/><circle cx="70" cy="34" r="3" fill="#9D96B4"/><circle cx="96" cy="37" r="3" fill="#9D96B4"/><circle cx="122" cy="34" r="3" fill="#9D96B4"/><circle cx="148" cy="37" r="3" fill="#9D96B4"/><circle cx="174" cy="34" r="3" fill="#9D96B4"/><path d="M 210 10 l 2.6 5.6 6.2 0.7 -4.6 4.2 1.3 6.1 -5.5-3.1 -5.5 3.1 1.3-6.1 -4.6-4.2 6.2-0.7 z" fill="#6C4CF1"/><text x="10" y="50" font-size="7" fill="#9D96B4">frontier configurations</text><text x="230" y="50" font-size="7" text-anchor="end" fill="#6C4CF1" font-weight="700">9B specialist</text></svg>
-      <div class="gcap" style="margin-top:1mm;">A 9B specialist trained on workflow traces outperformed every frontier configuration on the target task.</div>
-      <div class="gsrc">fermisense, the authors' lab (July 2026) · page 12</div>
+      <div class="gsrc">Anthropic and Material; AI Index 2026 · page 9</div>
     </div>
     <div class="gt">
-      <div class="gk">The tailwind</div>
+      <div class="gk">Capability gets cheaper monthly; early movers bank the delta</div>
       <div class="gnum">280&#215;</div>
       <div class="gcap">cheaper in 24 months: GPT-3.5-level output fell from $20 to $0.07 per million tokens.</div>
       <svg viewBox="0 0 120 40" style="width:74%;margin-top:2.4mm;"><path d="M 8 6 C 34 20 64 28 112 32" fill="none" stroke="#6C4CF1" stroke-width="2" stroke-dasharray="2 3" stroke-linecap="round"/><circle cx="8" cy="6" r="3" fill="#6C4CF1"/><circle cx="112" cy="32" r="6.2" fill="#6C4CF1" opacity="0.16"/><circle cx="112" cy="32" r="3" fill="#6C4CF1"/><text x="14" y="12" font-size="8" font-weight="700" fill="#231849">$20</text><text x="106" y="27" font-size="8" font-weight="700" text-anchor="end" fill="#231849">$0.07</text></svg>
-      <div class="gsrc">AI Index 2025 · page 6</div>
+      <div class="gsrc">AI Index 2025 · page 7</div>
     </div>
     <div class="gt">
-      <div class="gk">The surge</div><div class="gnum">+327%</div><div class="gcap">growth in multi-agent workflows in four months, measured across 20,000+ organizations; agents already create 80 percent of new databases on one major platform.</div><div class="gsrc">Databricks telemetry, 2026 &#183; page 7</div>
+      <div class="gk">Multi-agent systems are compounding right now</div><div class="gnum">+327%</div><div class="gcap">growth in multi-agent workflows in four months, measured across 20,000+ organizations; agents already create 80 percent of new databases on one major platform.</div><div class="gsrc">Databricks telemetry, 2026 &#183; page 9</div>
+    </div>
+    </div><div class="gcl">What the winners do about it</div><div class="gl">
+    <div class="gt w2">
+      <div class="gk">Your workflow traces are the asset; they become models</div>
+      <div class="gnum" style="font-size:17pt;">$500 beats the frontier at 1/68 the cost</div>
+      <svg viewBox="0 0 240 52" style="width:96%;margin-top:1.6mm;"><line x1="10" y1="35" x2="230" y2="35" stroke="#E2DDEF" stroke-width="0.8"/><circle cx="18" cy="34" r="3" fill="#9D96B4"/><circle cx="44" cy="37" r="3" fill="#9D96B4"/><circle cx="70" cy="34" r="3" fill="#9D96B4"/><circle cx="96" cy="37" r="3" fill="#9D96B4"/><circle cx="122" cy="34" r="3" fill="#9D96B4"/><circle cx="148" cy="37" r="3" fill="#9D96B4"/><circle cx="174" cy="34" r="3" fill="#9D96B4"/><path d="M 210 10 l 2.6 5.6 6.2 0.7 -4.6 4.2 1.3 6.1 -5.5-3.1 -5.5 3.1 1.3-6.1 -4.6-4.2 6.2-0.7 z" fill="#6C4CF1"/><text x="10" y="50" font-size="7" fill="#9D96B4">frontier configurations</text><text x="230" y="50" font-size="7" text-anchor="end" fill="#6C4CF1" font-weight="700">9B specialist</text></svg>
+      <div class="gcap" style="margin-top:1mm;">A 9B specialist trained on workflow traces outperformed every frontier configuration on the target task.</div>
+      <div class="gsrc">fermisense, the authors' lab (July 2026) · page 13</div>
     </div>
     <div class="gt bl w2">
-      <div class="gk">How to use this report</div>
+      <div class="gk">Locate yourself, then move one level</div>
       <div class="gnum" style="font-size:15.5pt;line-height:1.15;">Locate yourself, then move one level</div>
       <svg viewBox="0 0 238 34" style="width:96%;margin-top:2.2mm;"><rect x="0" y="6" width="32" height="13" fill="#D8CCF7"/><rect x="34" y="6" width="32" height="13" fill="#B4A3EE"/><rect x="68" y="6" width="32" height="13" fill="#8B6FE4"/><rect x="102" y="6" width="32" height="13" fill="#5D3BD8"/><rect x="136" y="6" width="32" height="13" fill="#4527B8"/><rect x="170" y="6" width="32" height="13" fill="#33205F"/><rect x="204" y="6" width="32" height="13" fill="#231849"/><text x="16" y="30" font-size="7" text-anchor="middle" fill="#DCE4FF">0</text><text x="50" y="30" font-size="7" text-anchor="middle" fill="#DCE4FF">1</text><text x="84" y="30" font-size="7" text-anchor="middle" fill="#DCE4FF">2</text><text x="118" y="30" font-size="7" text-anchor="middle" fill="#DCE4FF">3</text><text x="152" y="30" font-size="7" text-anchor="middle" fill="#DCE4FF">4</text><text x="186" y="30" font-size="7" text-anchor="middle" fill="#DCE4FF">5</text><text x="220" y="30" font-size="7" text-anchor="middle" fill="#DCE4FF">6</text></svg>
-      <div class="gcap" style="margin-top:1.8mm;">Seven adoption levels, nine stack layers. Find your row profile in the matrix (page 10), read your lagging layers (pages 11-21), then run the 90-day crossing sequence (page 22).</div>
+      <div class="gcap" style="margin-top:1.8mm;">Seven adoption levels, nine stack layers. Find your row profile in the matrix (page 11), read your lagging layers (pages 12-22), then run the 90-day crossing sequence (page 23).</div>
     </div>
   </div>
-  <div class="pnum">3</div>
+  <div class="pnum">4</div>
 </div>
 
 <!-- ============ 3 · SECTION 01 : JOURNEY ============ -->
@@ -453,7 +455,7 @@
           <path d="M-7 0 Q0 -5.5 7 0 Q0 5.5 -7 0 Z"/><circle r="1.8" fill="#231849" stroke="none"/><line x1="-7.5" y1="-6.5" x2="7.5" y2="6.5"/>
         </g>
       </g>
-      <use href="#walker" transform="translate(368,601) scale(1.55)" color="#231849"/>
+      <use href="#walker" transform="translate(368,601) scale(1.55)" color="#231849"/><use href="#walker" transform="translate(196,603) scale(1.4)" color="#9D96B4"/>
       <text x="368" y="580" font-size="9.5" font-style="italic" fill="#6F6890" text-anchor="middle">enterprises walk</text>
       <text x="68" y="648" font-size="11" font-weight="700" fill="#231849">Level 0 · Unaware</text>
       <text x="68" y="662" font-size="9.5" fill="#6F6890">AI is not on the agenda.</text>
@@ -512,15 +514,15 @@
       <text x="392" y="292" font-size="11" font-weight="700" fill="#231849">Level 6 · Agentic-first</text>
       <text x="392" y="306" font-size="9.5" fill="#6F6890">Agent-operated execution is the default within policy.</text>
       <text x="392" y="318" font-size="9.5" fill="#6F6890">Humans design, govern, and take what machines escalate.</text>
-    </svg>
+    <g transform="translate(668,196) rotate(-24)"><rect x="0" y="-4" width="16" height="8" rx="2.5" fill="#6C4CF1" opacity="0.85"/><rect x="22" y="-4" width="16" height="8" rx="2.5" fill="#6C4CF1" opacity="0.45"/><rect x="44" y="-4" width="16" height="8" rx="2.5" fill="#D9F24E" opacity="0.95"/></g><g transform="translate(648,150)" stroke="#231849" stroke-width="1.6" fill="none" stroke-linecap="round"><line x1="0" y1="0" x2="0" y2="34"/><line x1="0" y1="0" x2="26" y2="10"/><line x1="0" y1="10" x2="14" y2="5"/><line x1="26" y1="10" x2="26" y2="22"/><rect x="22" y="22" width="8" height="6" rx="1" fill="#D9F24E" stroke="none"/><path d="M -5 34 L 5 34" stroke-width="2.2"/></g><use href="#walker" transform="translate(628,214) rotate(-24) scale(1.3)" color="#231849"/><use href="#walker" transform="translate(645,206) rotate(-24) scale(1.3)" color="#231849"/><text x="596" y="140" font-size="9.5" font-style="italic" fill="#6F6890" text-anchor="middle">the labs, pouring the next stretch</text></svg>
   </div>
-  <div class="pnum">4</div>
+  <div class="pnum">5</div>
 </div>
 
 <!-- ============ 4 · SECTION 01b : JAGGED ============ -->
 <div class="page">
-  <div class="eyebrow">Section 01 · Continued</div>
-  <h1>Six functions, six speeds: the frontier is jagged</h1>
+  <div class="eyebrow">Section 01 · continued</div>
+  <h1>In reality, AI capabilities are jagged, so productivity gains differ</h1>
   <p class="body" style="max-width:176mm;"><b>The road does not grow evenly, and that is the planning mistake most roadmaps make.</b> Frontier capability sprints in some functions and jogs in others: coding agents compound weekly while judgment-heavy work advances slowly. The same enterprise can therefore be correctly ambitious in software engineering and correctly cautious in accounting. Set target levels function by function; one company-wide target hides the variance that matters.</p>
 
   <div class="exhibit">
@@ -745,13 +747,13 @@
   <div class="fn">¹Authors' estimate: theoretical coverage from task-level capability mappings; observed usage anchored to Anthropic Economic Index occupational shares.
     <span class="src">Source: Anthropic Economic Index<sup class="rf">7</sup> (first report, 3.5M+ conversations; enterprise API figure per The 2026 State of AI Agents Report<sup class="rf">6</sup>, p.44); jagged-frontier concept per Dell'Acqua, Mollick et al. (2023)<sup class="rf">18</sup></span></div>
   </div>
-  <div class="pnum">5</div>
+  <div class="pnum">6</div>
 </div>
 
 <!-- ============ TL · SECTION 01c : TIMELINE ============ -->
 <div class="page">
-  <div class="eyebrow">Section 01 · Continued</div>
-  <h1>Forty-five months from chat to agents, and the gaps keep shrinking</h1>
+  <div class="eyebrow">Section 01 · continued</div>
+  <h1>Breakthroughs keep accelerating: forty-five months since ChatGPT, nine since Claude Code, one since Kimi K3</h1>
   <p class="body" style="max-width:176mm;"><b>The interval between technical breakthroughs is collapsing.</b> Positions are true to the calendar: context windows, inference-time scaling, open reasoning, tool and identity standards, computer use, and specialist training all arrived inside four years, and the spacing keeps tightening toward the present. Violet marks 2026. Annual planning cycles will not keep up with this clock; plan on it directly.</p>
   <div class="exhibit">
     <div class="exnum">Exhibit 4</div>
@@ -762,7 +764,7 @@
     </svg>
     <div class="fn"><span class="src">¹Dates per primary announcements 2022-2026; July 2026 incident per OpenAI and Hugging Face joint disclosures. Sidebar: Kaplan et al. (2020)<sup class="rf">16</sup>, METR (2025-2026)<sup class="rf">17</sup>, Stanford HAI AI Index 2025<sup class="rf">2</sup></span></div>
   </div>
-  <div class="pnum">6</div>
+  <div class="pnum">7</div>
 </div>
 
 <!-- ============ 5 · SECTION 02 (adoption reality) -->
@@ -798,12 +800,12 @@
     <div class="fn">¹Authors' synthesis across verified surveys; ranges reflect differing samples and question wording. Self-reported "deployment" figures (for example, 53% of $1B+ US organizations "use agents", KPMG, June 2026<sup class="rf">13</sup>) measure presence, not control, and sit mostly within Levels 2-3.
     <span class="src">Source: McKinsey State of AI (November 2025)<sup class="rf">4</sup>; MIT NANDA (2025)<sup class="rf">3</sup>; Deloitte State of AI 2026<sup class="rf">9</sup>; Cisco AI Readiness Index (October 2025)<sup class="rf">10</sup>; BCG (September 2025)<sup class="rf">11</sup>; Capgemini (July 2025)<sup class="rf">12</sup>; Menlo Ventures (December 2025)<sup class="rf">8</sup></span></div>
   </div>
-  <div class="pnum">7</div>
+  <div class="pnum">8</div>
 </div>
 
 <!-- ============ EV · SECTION 02b : EVIDENCE ============ -->
 <div class="page">
-  <div class="eyebrow">Section 02 · Continued</div>
+  <div class="eyebrow">Section 02 · continued</div>
   <h1>Capability outruns control. Winter 2026 made it measurable.</h1>
   <p class="body" style="max-width:176mm;"><b>Three findings from the Stanford HAI AI Index 2026 carry this report's argument:</b> security is the number one obstacle to scale, most functions have not started with agents, and capability leapt while policy-constrained reliability did not. All three point at the same gate: control infrastructure.</p>
   <div class="exhibit" style="margin-top:2.6mm;">
@@ -829,12 +831,12 @@
     <div class="fn"><span class="src">Source: Stanford HAI AI Index Report 2026 (Section 2.6, Figures 2.6.1-2.6.6); published April 2026<sup class="rf">1</sup></span></div>
   </div>
   <div class="movebox" style="margin-top:2.6mm;"><b>Self-report runs hot; neutral measurement runs cold; both are true.</b> 80 percent of technical leaders say agents already deliver measurable financial impact and 57 percent run multi-step workflows (Anthropic and Material, n=500+, late 2025)<sup class="rf">6</sup>; neutral staging finds scaled agent use in single digits per function (AI Index 2026)<sup class="rf">1</sup>. Presence is broad, instrumented scale is rare. Ask which one your dashboard measures.</div>
-  <div class="pnum">8</div>
+  <div class="pnum">9</div>
 </div>
 
 <!-- ============ EVb · SECTION 02c : BENCHMARKS ============ -->
 <div class="page">
-  <div class="eyebrow">Section 02 · Continued</div>
+  <div class="eyebrow">Section 02 · continued</div>
   <h1>What the frontier can do, in eight tests</h1>
   <p class="body" style="max-width:176mm;"><b>Benchmarks are the industry's standardized exams, and the fastest early warning you have.</b> Each is a fixed set of tasks with objective grading, so models can be compared across labs and across time. They measure the ceiling under ideal conditions rather than your floor in production, but when a benchmark your work depends on jumps, as software engineering did with an 18-point leap in six months, your target levels are due for review.</p>
   <div class="exhibit" style="margin-top:2.4mm;">
@@ -858,7 +860,7 @@
     <span class="src">Source: LLM-Stats and BenchLM leaderboard aggregators, August 3-5, 2026<sup class="rf">32</sup>; OSWorld-Verified leaderboard<sup class="rf">33</sup>; Stanford HAI AI Index 2026 (April) for Terminal-Bench and GAIA<sup class="rf">1</sup>; benchmark definitions per the original papers</span></div>
   </div>
   <div class="movebox" style="margin-top:2.8mm;"><b>How to monitor without drowning: four habits.</b> Track one preference board (LMArena), one composite index (Artificial Analysis or LLM-Stats), and the one task suite closest to your work, at a quarterly cadence. Distrust any score quoted without a date and a scaffold, since both move results by double digits. Retire a benchmark from your dashboard once the frontier clusters within a point or two, the way competition math did. Above all, build a private eval from your own workflows: public benchmarks measure the frontier's ceiling, and only your traces measure your floor.</div>
-  <div class="pnum">9</div>
+  <div class="pnum">10</div>
 </div>
 
 <!-- ============ 4 · SECTION 02 : MATRIX ============ -->
@@ -906,12 +908,12 @@
     <p><b>3. Move in dependency order.</b> Identity (5) and observability (7) first, evals (8) second, autonomy (4, 6) after, models (1) and people (9) continuously. If you take one action from this page: bring rows 5 and 7 to Level 4 before scaling anything else.</p>
   <div style="margin-top:2.2mm;border-left:2pt solid var(--blue);padding-left:3.2mm;max-width:178mm;"><p style="font-size:7.9pt;line-height:1.42;color:var(--ink);margin:0;"><b style="color:var(--navy);">The mental model behind this matrix.</b> Determine an agentification level for every serious value-creation flow in the organization. Many processes should not exist at all going forward; agents do not belong everywhere. And adoption does not happen at the level of the organization or the tool: it happens at the level of the workflow.</p></div>
   </div>
-  <div class="pnum">10</div>
+  <div class="pnum">11</div>
 </div>
 
 <!-- ============ 5 · LAYER 1 ============ -->
 <div class="page lay">
-  <div class="eyebrow">Section 04 · Layer 1 · Configuration dimension</div>
+  <div class="eyebrow">Section 04 · layer 1 · configuration dimension</div>
   <h1>Models and inference</h1>
   <div class="coauth"><div class="row1"><div class="cm">L</div><div class="ct"><span class="lb">Co-author</span><b>To be announced</b> &#183; Founder, Lyceum</div><div class="colg"><img src="logos/lyceum.technology.png"> Lyceum</div></div><div class="cob"><b>Lyceum</b> is a European AI cloud from Berlin: serverless inference on open models plus dedicated GPU capacity, with EU data residency. The practitioner view of the inference stack follows in the next revision.</div></div>
   <div class="cols">
@@ -960,14 +962,15 @@
     <div class="sp"><b>Level 5</b><span>Fleet retrained from traces</span></div>
   </div></div>
   <div class="diag"><b>DIAGNOSTIC&nbsp;&nbsp;</b> Could you swap the model behind your flagship workflow without touching code? Do you know cost and quality per model per task, or only per vendor invoice?</div>
-  <div class="movebox sw"><span class="swlab">So what</span>Put one gateway in front of all model traffic and move the raw keys into it. Every other capability in this report attaches to that chokepoint.</div>
-  <div class="pnum">11</div>
+  <div class="movebox sw"><span class="swlab">So what?</span>Put one gateway in front of all model traffic and move the raw keys into it. Every other capability in this report attaches to that chokepoint.</div>
+  <div class="pnum">12</div>
 </div>
 
 <!-- ============ FT · LAYER 1 DEEP DIVE ============ -->
 <div class="page">
-  <div class="eyebrow">Section 04 · Layer 1 deep dive · Configuration dimension</div>
+  <div class="eyebrow">Section 04 · layer 1 deep dive · configuration dimension</div>
   <h1>Intelligence ownership: task-trained specialists clear the frontier plateau</h1>
+  <div class="coauth"><div class="row1"><div class="cm">JH</div><div class="ct"><span class="lb">Co-author</span><b>Jo&#235;l Hainzl</b> &#183; Co-Founder, Action Layer</div><div class="colg">Action Layer</div></div><div class="cob"><b>Action Layer</b> builds the system of record for the agentic workforce: registered agents with owners, full traces, and token-level attribution. Instrumented workflows of exactly this kind produce the training data this page turns into specialist models.</div></div>
   <div class="cols">
     <div class="rail">
       <div class="callout"><div class="cnum">87.3%</div><div class="ccap">of the maximum achievable score reached by the authors' GRPO-trained 9B open model on catalog review; five frontier models plateaued at 69.7 to 76.9 percent (fermisense.com, July 2026)</div></div>
@@ -986,13 +989,13 @@
     <div class="fn">¹Same tools, images, and scorer for every configuration; frontier models run with optimized prompts. Specialist: Qwen3.5-9B trained with GRPO via prime-rl.
     <span class="src">Source: Hildesheim, Hainzl et al., "The Rise of Intelligence Ownership", fermisense.com, July 27, 2026<sup class="rf">21</sup></span></div>
   </div>
-  <div class="movebox sw"><span class="swlab">So what</span>Once a workflow is instrumented and evaluated at Level 4, its traces become training data. Specialists are how Level 5 economics arrive: quality above the frontier plateau at commodity cost, on hardware you own.</div>
-  <div class="pnum">12</div>
+  <div class="movebox sw"><span class="swlab">So what?</span>Once a workflow is instrumented and evaluated at Level 4, its traces become training data. Specialists are how Level 5 economics arrive: quality above the frontier plateau at commodity cost, on hardware you own.</div>
+  <div class="pnum">13</div>
 </div>
 
 <!-- ============ 6 · LAYER 2 ============ -->
 <div class="page lay">
-  <div class="eyebrow">Section 04 · Layer 2 · Configuration dimension</div>
+  <div class="eyebrow">Section 04 · layer 2 · configuration dimension</div>
   <h1>Orchestration and architecture</h1>
   <div class="coauth"><div class="row1"><img class="face" src="coauthors/jakob-mayer.jpg"><div class="ct"><span class="lb">Co-author</span><b>Jakob Mayer</b> &#183; Founder and CEO, OSM Data</div><div class="colg"><img src="logos/osm-data.com.png"> OSM Data</div></div><div class="cob"><b>OSM Data</b> builds mathematical optimization systems for energy planning, trading, scheduling, and real-time operations, connecting constrained decisions across markets and time horizons. Deterministic decision systems of exactly this kind are the rails this layer wraps around agent workflows.</div></div>
   <div class="cols">
@@ -1041,15 +1044,15 @@
     <div class="sp"><b>Level 5</b><span>Agent meshes, agent-first design</span></div>
   </div></div>
   <div class="diag"><b>DIAGNOSTIC&nbsp;&nbsp;</b> Can the flagship workflow run end to end without a person ferrying context between tools?</div>
-  <div class="movebox sw" style="margin-top:1mm;"><span class="swlab">So what</span>Rebuild the one or two workflows that matter as instrumented pipelines with explicit human gates; kill the rest of the pilot zoo.</div>
-  <div class="pnum">13</div>
+  <div class="movebox sw" style="margin-top:1mm;"><span class="swlab">So what?</span>Rebuild the one or two workflows that matter as instrumented pipelines with explicit human gates; kill the rest of the pilot zoo.</div>
+  <div class="pnum">14</div>
 </div>
 
 <!-- ============ 7 · LAYER 3 ============ -->
 <div class="page lay">
-  <div class="eyebrow">Section 04 · Layer 3 · Context dimension</div>
+  <div class="eyebrow">Section 04 · layer 3 · context dimension</div>
   <h1>Knowledge, context, and memory</h1>
-  <div class="coauth"><div class="row1"><img class="face" src="coauthors/justinas-zaliaduonis.jpg"><div class="ct"><span class="lb">Co-author</span><b>Justinas Zaliaduonis</b> &#183; Founder, fermisense</div><div class="colg"><img src="logos/fermisense.com.png"> fermisense</div></div><div class="cob"><b>fermisense</b> is the authors' applied-research lab: task-trained specialist models from instrumented workflow traces. The intelligence-ownership experiment on page 12 is its work.</div></div>
+  <div class="coauth"><div class="row1"><img class="face" src="coauthors/justinas-zaliaduonis.jpg"><div class="ct"><span class="lb">Co-author</span><b>Justinas Zaliaduonis</b> &#183; Founder, fermisense</div><div class="colg"><img src="logos/fermisense.com.png"> fermisense</div></div><div class="cob"><b>fermisense</b> is the authors' applied-research lab: task-trained specialist models from instrumented workflow traces. The intelligence-ownership experiment on page 13 is its work.</div></div>
   <div class="cols">
     <div class="rail">
       <div class="callout"><div class="cnum">51%</div><div class="ccap">of enterprises had adopted retrieval-augmented generation by late 2024, up from 31% a year earlier (Menlo Ventures, November 2024)</div></div>
@@ -1096,15 +1099,15 @@
     <div class="sp"><b>Level 5</b><span>Self-maintaining substrate</span></div>
   </div></div>
   <div class="diag"><b>DIAGNOSTIC&nbsp;&nbsp;</b> Is retrieval permission-aware, or can the index see more than the asking user should?</div>
-  <div class="movebox sw" style="margin-top:1mm;"><span class="swlab">So what</span>Stand up one governed, permission-aware context source and make two workflows share it.</div>
-  <div class="pnum">14</div>
+  <div class="movebox sw" style="margin-top:1mm;"><span class="swlab">So what?</span>Stand up one governed, permission-aware context source and make two workflows share it.</div>
+  <div class="pnum">15</div>
 </div>
 
 <!-- ============ 8 · LAYER 4 ============ -->
-<div class="page lay">
-  <div class="eyebrow">Section 04 · Layer 4 · Control and Configuration dimensions</div>
+<div class="page lay tightpg">
+  <div class="eyebrow">Section 04 · layer 4 · control and configuration dimensions</div>
   <h1>Tools and actions</h1>
-  <div class="coauth"><div class="row1"><div class="cm cm-open">+</div><div class="ct"><span class="lb">Co-author</span><b>Open slot</b> &#183; practitioner co-authors welcome: fabian.hildesheim@cdtm.com</div></div><div class="cob">A founder building in this layer adds their photo, a short company introduction in this space, and one review pass of the page.</div></div>
+  <div class="coauth"><div class="row1"><div class="cm">JW</div><div class="ct"><span class="lb">Co-author</span><b>Julian Windeck</b> &#183; Founder, Attention Engineering</div><div class="colg">Attention Engineering</div></div><div class="cob"><b>Attention Engineering</b> builds Coast: an audit-first layer that records on-screen work locally into agent-readable context and replayable trails.</div></div>
   <div class="cols">
     <div class="rail">
       <div class="callout"><div class="cnum">40%</div><div class="ccap">of enterprise applications will ship task-specific agents by end-2026, up from under 5% in 2025 (Gartner, August 2025)</div></div>
@@ -1126,7 +1129,7 @@
       <tr><td class="seg"><span class="sn">Integration platforms</span><div class="vp">Thousands of prebuilt actions; fastest surface, needs registry governance</div></td>
       <td class="list"><span class="pl"><img src="logos/zapier.com.png">Zapier</span><span class="pl"><img src="logos/make.com.png">Make</span><span class="pl"><img src="logos/n8n.io.png">n8n</span><span class="pl"><img src="logos/workato.com.png">Workato</span><span class="pl"><img src="logos/composio.dev.png">Composio</span><span class="pl"><img src="logos/arcade.dev.png">Arcade</span><span class="pl"><img src="logos/pipedream.com.png">Pipedream</span></td></tr>
       <tr><td class="seg"><span class="sn">Computer use and browsing</span><div class="vp">Agents operating user interfaces directly; reach into systems that will never get an API</div></td>
-      <td class="list"><span class="pl"><img src="logos/anthropic.com.png">Anthropic</span><span class="pl"><img src="logos/openai.com.png">OpenAI Operator</span><span class="pl"><img src="logos/browser-use.com.png">Browser Use</span><span class="pl"><span class="ti">B</span>Browserbase</span></td></tr>
+      <td class="list"><span class="pl"><img src="logos/anthropic.com.png">Anthropic</span><span class="pl"><img src="logos/openai.com.png">OpenAI Operator</span><span class="pl"><img src="logos/browser-use.com.png">Browser Use</span><span class="pl"><span class="ti">B</span>Browserbase</span><span class="pl"><img src="logos/attention.inc.png">Attention Engineering</span></td></tr>
       <tr><td class="seg"><span class="sn">RPA bridge</span><div class="vp">The existing bot estate: deterministic, brittle, increasingly orchestrated by agents</div></td>
       <td class="list"><span class="pl"><img src="logos/uipath.com.png">UiPath</span><span class="pl"><img src="logos/automationanywhere.com.png">Automation Anywhere</span><span class="pl"><span class="ti">P</span>Power Automate</span></td></tr>
     </table>
@@ -1151,13 +1154,13 @@
     <div class="sp"><b>Level 5</b><span>Agent-to-agent transactions</span></div>
   </div></div>
   <div class="diag"><b>DIAGNOSTIC&nbsp;&nbsp;</b> Can an agent change a record in a business system today, and under whose credentials? Could you list every tool every agent can call?</div>
-  <div class="movebox sw"><span class="swlab">So what</span>Stand up the tool registry and per-agent scoping before expanding what agents can touch. An action surface without identity is an incident schedule.</div>
-  <div class="pnum">15</div>
+  <div class="movebox sw"><span class="swlab">So what?</span>Stand up the tool registry and per-agent scoping before expanding what agents can touch. An action surface without identity is an incident schedule. </div>
+  <div class="pnum">16</div>
 </div>
 
 <!-- ============ CU · LAYER 4 DEEP DIVE ============ -->
-<div class="page lay">
-  <div class="eyebrow">Section 04 · Layer 4 deep dive · Control and Configuration dimensions</div>
+<div class="page lay tightpg">
+  <div class="eyebrow">Section 04 · layer 4 deep dive · control and configuration dimensions</div>
   <h1>Computer use and reinforcement learning</h1>
   <div class="coauth"><div class="row1"><img class="face" src="coauthors/ingmar-klein.jpg"><div class="ct"><span class="lb">Co-author</span><b>Ingmar Klein</b> &#183; Founder, Huzzle Labs</div><div class="colg"><img src="logos/labs.huzzle.com.png"> Huzzle Labs</div></div><div class="cob"><b>Huzzle Labs</b> trains small computer-use models in proprietary reinforcement-learning environments, built with a network of 300,000+ domain experts. Its h-1 family ranks beside far larger frontier models on OSWorld and keeps a fully local, replayable audit trail.</div></div>
   <div class="cols">
@@ -1193,13 +1196,13 @@
     <tr><td>Computer use</td><td>Universal reach, including legacy user interfaces</td><td>No API will ever exist and volume justifies latency; sandbox mandatory</td></tr>
     <tr><td>RPA under agent control</td><td>Reuses the deterministic bot estate you already paid for</td><td>Stable, unchanging screens inside agent workflows</td></tr>
   </table>
-  <div class="movebox sw"><span class="swlab">So what</span>Treat computer use as reach, not default: APIs first, screen agents for the systems that will never get one, always inside a sandbox with gated writes and a replayable trail.</div>
-  <div class="pnum">16</div>
+  <div class="movebox sw"><span class="swlab">So what?</span>Treat computer use as reach, not default: APIs first, screen agents for the systems that will never get one, always inside a sandbox with gated writes and a replayable trail.</div>
+  <div class="pnum">17</div>
 </div>
 
 <!-- ============ 9 · LAYER 5 ============ -->
 <div class="page lay">
-  <div class="eyebrow">Section 04 · Layer 5 · Control dimension · First gate layer</div>
+  <div class="eyebrow">Section 04 · layer 5 · control dimension · first gate layer</div>
   <h1>Identity, permissions, and security</h1>
   <div class="coauth"><div class="row1"><div class="cm">K</div><div class="ct"><span class="lb">Co-author</span><b>To be announced</b> &#183; Founder, kontext.security</div><div class="colg"><img src="logos/kontext.security.png"> kontext.security</div></div><div class="cob"><b>kontext.security</b> co-authors this layer. Company introduction and the practitioner view of agent identity and containment follow in the next revision.</div></div>
   <div class="cols">
@@ -1248,13 +1251,13 @@
     <div class="sp"><b>Level 5</b><span>Identity fabric incl. external agents</span></div>
   </div></div>
   <div class="diag"><b>DIAGNOSTIC&nbsp;&nbsp;</b> Could you shut down a misbehaving agent in minutes, and has that ever been tested? Can your logs distinguish agent actions from human actions?</div>
-  <div class="movebox sw"><span class="swlab">So what</span>Identity per agent plus gates on writes. Together with layer 7, this is the crossing that turns pilots into governable operations.</div>
-  <div class="pnum">17</div>
+  <div class="movebox sw"><span class="swlab">So what?</span>Identity per agent plus gates on writes. Together with layer 7, this is the crossing that turns pilots into governable operations.</div>
+  <div class="pnum">18</div>
 </div>
 
 <!-- ============ 10 · LAYER 6 ============ -->
 <div class="page lay">
-  <div class="eyebrow">Section 04 · Layer 6 · Configuration dimension</div>
+  <div class="eyebrow">Section 04 · layer 6 · configuration dimension</div>
   <h1>Deployment and operations</h1>
   <div class="coauth"><div class="row1"><div class="cm cm-open">+</div><div class="ct"><span class="lb">Co-author</span><b>Open slot</b> &#183; practitioner co-authors welcome: fabian.hildesheim@cdtm.com</div></div><div class="cob">A founder building in this layer adds their photo, a short company introduction in this space, and one review pass of the page.</div></div>
   <div class="cols">
@@ -1302,13 +1305,13 @@
     <div class="sp"><b>Level 5</b><span>Autonomous ops within policy</span></div>
   </div></div>
   <div class="diag"><b>DIAGNOSTIC&nbsp;&nbsp;</b> Where does the flagship AI workflow physically run, and what happens when it fails at 2am? Could you roll back last week's prompt change?</div>
-  <div class="movebox sw"><span class="swlab">So what</span>Give the flagship workflow real environments, version control, and a named on-call owner. Then, and only then, widen its autonomy one rung.</div>
-  <div class="pnum">18</div>
+  <div class="movebox sw"><span class="swlab">So what?</span>Give the flagship workflow real environments, version control, and a named on-call owner. Then, and only then, widen its autonomy one rung.</div>
+  <div class="pnum">19</div>
 </div>
 
 <!-- ============ 11 · LAYER 7 ============ -->
 <div class="page lay">
-  <div class="eyebrow">Section 04 · Layer 7 · Cost dimension · Second gate layer</div>
+  <div class="eyebrow">Section 04 · layer 7 · cost dimension · second gate layer</div>
   <h1>Observability and cost</h1>
   <div class="coauth"><div class="row1"><div class="cm cm-open">+</div><div class="ct"><span class="lb">Co-author</span><b>Open slot</b> &#183; practitioner co-authors welcome: fabian.hildesheim@cdtm.com</div></div><div class="cob">A founder building in this layer adds their photo, a short company introduction in this space, and one review pass of the page.</div></div>
   <div class="cols">
@@ -1357,13 +1360,13 @@
     <div class="sp"><b>Level 5</b><span>Real-time AI P&amp;L</span></div>
   </div></div>
   <div class="diag"><b>DIAGNOSTIC&nbsp;&nbsp;</b> Could you produce last month's AI spend per team within an hour? What is the cost per completed task for the workflow that matters most?</div>
-  <div class="movebox sw"><span class="swlab">So what</span>One trace log through the gateway, then the attribution join: token to team to use case to outcome. Everything else in this report compounds on this.</div>
-  <div class="pnum">19</div>
+  <div class="movebox sw"><span class="swlab">So what?</span>One trace log through the gateway, then the attribution join: token to team to use case to outcome. Everything else in this report compounds on this.</div>
+  <div class="pnum">20</div>
 </div>
 
 <!-- ============ 12 · LAYER 8 ============ -->
 <div class="page lay">
-  <div class="eyebrow">Section 04 · Layer 8 · Cultivation dimension · The autonomy throttle</div>
+  <div class="eyebrow">Section 04 · layer 8 · cultivation dimension · the autonomy throttle</div>
   <h1>Evals and improvement</h1>
   <div class="coauth"><div class="row1"><div class="cm cm-open">+</div><div class="ct"><span class="lb">Co-author</span><b>Open slot</b> &#183; practitioner co-authors welcome: fabian.hildesheim@cdtm.com</div></div><div class="cob">A founder building in this layer adds their photo, a short company introduction in this space, and one review pass of the page.</div></div>
   <div class="cols">
@@ -1412,13 +1415,13 @@
     <div class="sp"><b>Level 5</b><span>Self-improvement under governance</span></div>
   </div></div>
   <div class="diag"><b>DIAGNOSTIC&nbsp;&nbsp;</b> If someone changed a prompt today, what would break silently, and would you know? Has anyone seeded known errors to test whether reviewers catch them?</div>
-  <div class="movebox sw"><span class="swlab">So what</span>Build a golden set from 20 real cases of the flagship workflow and gate every change on it. This layer is the throttle that safely opens layers 4 and 6.</div>
-  <div class="pnum">20</div>
+  <div class="movebox sw"><span class="swlab">So what?</span>Build a golden set from 20 real cases of the flagship workflow and gate every change on it. This layer is the throttle that safely opens layers 4 and 6.</div>
+  <div class="pnum">21</div>
 </div>
 
 <!-- ============ 13 · LAYER 9 ============ -->
 <div class="page lay">
-  <div class="eyebrow">Section 04 · Layer 9 · Cultivation dimension</div>
+  <div class="eyebrow">Section 04 · layer 9 · cultivation dimension</div>
   <h1>People and operating model</h1>
   <div class="coauth"><div class="row1"><div class="cm cm-open">+</div><div class="ct"><span class="lb">Co-author</span><b>Open slot</b> &#183; practitioner co-authors welcome: fabian.hildesheim@cdtm.com</div></div><div class="cob">A founder building in this layer adds their photo, a short company introduction in this space, and one review pass of the page.</div></div>
   <div class="cols">
@@ -1467,8 +1470,8 @@
     <div class="sp"><b>Level 5</b><span>Organization designed around fleets</span></div>
   </div></div>
   <div class="diag"><b>DIAGNOSTIC&nbsp;&nbsp;</b> Who is accountable, by name, if the flagship AI workflow fails? Are shadow builders drafted into ownership or treated as offenders?</div>
-  <div class="movebox sw"><span class="swlab">So what</span>Run the census with amnesty, register every agent with a named owner, and put your best shadow builders in charge of the patterns everyone else reuses.</div>
-  <div class="pnum">21</div>
+  <div class="movebox sw"><span class="swlab">So what?</span>Run the census with amnesty, register every agent with a named owner, and put your best shadow builders in charge of the patterns everyone else reuses.</div>
+  <div class="pnum">22</div>
 </div>
 
 <!-- ============ 14 · SECTION 04 : SEQUENCE ============ -->
@@ -1505,7 +1508,7 @@
 
   <p class="body" style="margin-top:4mm;max-width:176mm;"><b>The prize is compounding, and it goes to whoever holds the record.</b> Instrumented operations turn AI from a story into a line item with unit economics: governed projects reach production at a multiple of ungoverned ones, specialist models cut unit costs by orders of magnitude on stable workflows, and each instrumented workflow makes the next one cheaper. The layer that sees the work becomes the layer that runs it. That is the strategic reason to cross now, at a moment when 95 percent of spend still produces no measurable return: the gap between the instrumented few and everyone else is the widest competitive opening this technology cycle has produced.</p>
   <div class="movebox" style="margin-top:4mm;"><b>Where to go from here.</b> Run the one-hour self-placement this week: nine rows, one artifact of evidence per cell, the median and the lagging rows on a single page. If you want the facilitated version with peer comparison, or you operate at Levels 4 to 6 and want to compare notes, write to fabian.hildesheim@cdtm.com.</div>
-  <div class="pnum">22</div>
+  <div class="pnum">23</div>
 </div>
 
 <!-- ============ 15a · REFERENCES ============ -->
@@ -1516,7 +1519,7 @@
   <div class="refs">
     <div class="rg">Surveys and industry reports</div><div class="re"><span class="rn">1</span><span><b>Stanford HAI.</b> Artificial Intelligence Index Report 2026. April 2026. <a href="https://hai.stanford.edu/ai-index/2026-ai-index-report">hai.stanford.edu/ai-index</a></span></div><div class="re"><span class="rn">2</span><span><b>Stanford HAI.</b> Artificial Intelligence Index Report 2025. April 2025. <a href="https://hai.stanford.edu/ai-index/2025-ai-index-report">hai.stanford.edu/ai-index</a></span></div><div class="re"><span class="rn">3</span><span><b>MIT NANDA.</b> The GenAI Divide: State of AI in Business. August 2025. <a href="https://nanda.media.mit.edu">nanda.media.mit.edu</a></span></div><div class="re"><span class="rn">4</span><span><b>McKinsey &amp; Company.</b> The State of AI. November 2025. <a href="https://mckinsey.com">mckinsey.com</a></span></div><div class="re"><span class="rn">5</span><span><b>McKinsey &amp; Company.</b> Superagency in the Workplace. January 2025. <a href="https://mckinsey.com">mckinsey.com</a></span></div><div class="re"><span class="rn">6</span><span><b>Anthropic and Material.</b> The 2026 State of AI Agents Report. Late 2025. <a href="https://anthropic.com">anthropic.com</a></span></div><div class="re"><span class="rn">7</span><span><b>Anthropic.</b> Anthropic Economic Index. 2025-2026. <a href="https://anthropic.com/economic-index">anthropic.com/economic-index</a></span></div><div class="re"><span class="rn">8</span><span><b>Menlo Ventures.</b> The State of Generative AI in the Enterprise. Nov 2024; Dec 2025. <a href="https://menlovc.com">menlovc.com</a></span></div><div class="re"><span class="rn">9</span><span><b>Deloitte.</b> State of Generative AI in the Enterprise. 2026. <a href="https://deloitte.com">deloitte.com</a></span></div><div class="re"><span class="rn">10</span><span><b>Cisco.</b> AI Readiness Index. October 2025. <a href="https://cisco.com">cisco.com</a></span></div><div class="re"><span class="rn">11</span><span><b>BCG.</b> AI at Work and adoption research. June-September 2025. <a href="https://bcg.com">bcg.com</a></span></div><div class="re"><span class="rn">12</span><span><b>Capgemini Research Institute.</b> Agentic AI research. July 2025. <a href="https://capgemini.com">capgemini.com</a></span></div><div class="re"><span class="rn">13</span><span><b>KPMG.</b> AI Quarterly Pulse Survey. June 2026. <a href="https://kpmg.com">kpmg.com</a></span></div><div class="re"><span class="rn">14</span><span><b>Gartner.</b> Hype Cycle for Agentic AI. August 2025; 2026 update. <a href="https://gartner.com">gartner.com</a></span></div><div class="re"><span class="rn">15</span><span><b>Microsoft.</b> Work Trend Index (April 2025); a16z CIO survey (June 2025); Ramp Economics Lab (2026); Glean, Work AI Index (June 2026). <a href="https://microsoft.com/worklab">microsoft.com/worklab</a></span></div><div class="rg">Academic and technical work</div><div class="re"><span class="rn">16</span><span><b>Kaplan, J., McCandlish, S., et al.</b> Scaling Laws for Neural Language Models. 2020. <a href="https://arxiv.org/abs/2001.08361">arxiv.org/abs/2001.08361</a></span></div><div class="re"><span class="rn">17</span><span><b>METR.</b> Measuring AI Ability to Complete Long Tasks (March 2025); Time Horizon 1.1 update (2026). <a href="https://metr.org/time-horizons/">metr.org</a></span></div><div class="re"><span class="rn">18</span><span><b>Dell'Acqua, F., McFowland III, E., Mollick, E., et al.</b> Navigating the Jagged Technological Frontier. HBS Working Paper 24-013, 2023. <a href="https://hbs.edu">hbs.edu</a></span></div><div class="re"><span class="rn">19</span><span><b>Gao, Y., et al.</b> Retrieval-Augmented Generation for Large Language Models: A Survey. 2023. <a href="https://arxiv.org/abs/2312.10997">arxiv.org/abs/2312.10997</a></span></div><div class="re"><span class="rn">20</span><span><b>Zheng, L., et al.</b> Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena. 2023. <a href="https://arxiv.org/abs/2306.05685">arxiv.org/abs/2306.05685</a></span></div><div class="re"><span class="rn">21</span><span><b>Hildesheim, Hainzl, et al.*</b> The Rise of Intelligence Ownership. July 27, 2026. <a href="https://fermisense.com">fermisense.com</a></span></div><div class="re"><span class="rn">22</span><span><b>Anthropic.</b> Engineering publications: Building Effective Agents (Dec 2024); Effective Context Engineering (Sep 2025); Demystifying Evals for AI Agents (Jan 2026); containment engineering (May 2026). <a href="https://anthropic.com/engineering">anthropic.com/engineering</a></span></div><div class="re"><span class="rn">23</span><span><b>OpenAI.</b> A Practical Guide to Building Agents (2025); reinforcement fine-tuning documentation (May 2025). <a href="https://openai.com">openai.com</a></span></div><div class="re"><span class="rn">24</span><span><b>Practitioner sources.</b> Husain, H. (hamel.dev, 2024); Yan, E. (eugeneyan.com, 2024-2025); Microsoft GraphRAG (2024); Zep (2025). <a href="https://hamel.dev">hamel.dev</a></span></div><div class="rg">Standards, guidance, and live leaderboards</div><div class="re"><span class="rn">25</span><span><b>Model Context Protocol.</b> Specification and registry. 2024-2026. <a href="https://modelcontextprotocol.io">modelcontextprotocol.io</a></span></div><div class="re"><span class="rn">26</span><span><b>Linux Foundation.</b> Agentic AI Foundation; A2A protocol. 2025. <a href="https://linuxfoundation.org">linuxfoundation.org</a></span></div><div class="re"><span class="rn">27</span><span><b>OWASP.</b> GenAI Security Project. 2024-2025. <a href="https://genai.owasp.org">genai.owasp.org</a></span></div><div class="re"><span class="rn">28</span><span><b>NCSC and Five Eyes partner agencies.</b> Guidance for deploying AI agents. April-May 2026. <a href="https://ncsc.gov.uk">ncsc.gov.uk</a></span></div><div class="re"><span class="rn">29</span><span><b>Security industry.</b> Cloud Security Alliance (2026); Palo Alto Networks (2026); SailPoint (2025); Databricks (2026). <a href="https://cloudsecurityalliance.org">cloudsecurityalliance.org</a></span></div><div class="re"><span class="rn">30</span><span><b>Microsoft.</b> Entra Agent ID (May 2025); Agent 365 (November 2025; GA May 2026). <a href="https://microsoft.com">microsoft.com</a></span></div><div class="re"><span class="rn">31</span><span><b>LMArena.</b> Blind human-preference leaderboard. Accessed March-August 2026. <a href="https://lmarena.ai">lmarena.ai</a></span></div><div class="re"><span class="rn">32</span><span><b>LLM-Stats; BenchLM.</b> Cross-vendor benchmark aggregators. Accessed August 3-5, 2026. <a href="https://llm-stats.com">llm-stats.com</a></span></div><div class="re"><span class="rn">33</span><span><b>OSWorld-Verified.</b> Computer-use leaderboard. Accessed August 2026. <a href="https://os-world.github.io">os-world.github.io</a></span></div><div class="re"><span class="rn">34</span><span><b>Framework design conventions.</b> CMMI capability profiles; SAE J3016; NIST Cybersecurity Framework; CISA Zero Trust Maturity Model. <a href="https://cisa.gov">cisa.gov</a></span></div><div class="re"><span class="rn">35</span><span><b>Ecosystem sources.</b> FinOps Foundation (2026); Huzzle Labs (labs.huzzle.com); Attention Engineering (attention.inc). <a href="https://finops.org">finops.org</a></span></div><div class="re"><span class="rn">*</span><span>Authors' own prior work.</span></div>
   </div>
-  <div class="pnum">23</div>
+  <div class="pnum">24</div>
 </div>
 
 <!-- ============ 15 · ABOUT ============ -->
@@ -1534,7 +1537,7 @@
   <h2>Attribution and disclaimers</h2>
   <p>Independently authored and produced. The layout follows the exhibit and typographic conventions of management-consulting publications; this document is not authored by, affiliated with, or endorsed by McKinsey &amp; Company. Company logos appear for identification only and remain the property of their respective owners. Market maps are selective, not exhaustive; inclusion is not endorsement. Statistics are reproduced with source and date; where figures are the authors' synthesis, they are labeled as estimates.</p>
   <div style="position:absolute;left:18mm;right:18mm;bottom:16mm;border-top:0.7pt solid var(--navy);padding-top:2.6mm;"><div style="display:flex;justify-content:space-between;align-items:baseline;"><div style="font-size:7.2pt;color:var(--gray);"><b style="color:var(--navy);">Enterprise Agentic AI Adoption Compass 2026</b> &#183; Version 1.2, August 11, 2026 &#183; fabian.hildesheim@cdtm.com</div><div style="font-size:7.2pt;color:var(--soft);">Underlying data available from the authors on request</div></div></div>
-  <div class="pnum">24</div>
+  <div class="pnum">25</div>
 </div>
 
 </body>

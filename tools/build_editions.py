@@ -5,7 +5,7 @@ import re, os
 HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 D = os.path.join(HERE, "src") + os.sep
 COLORMAP = {
- "#051C2C":"#231849", "#9AA6B2":"#9D96B4", "#2251FF":"#6C4CF1", "#1F2A36":"#2C2347",
+ "#0E1A26":"#231849", "#9AA6B2":"#9D96B4", "#2E52FF":"#6C4CF1", "#1F2A36":"#2C2347",
  "#D6DDE4":"#DED8EC", "#6E7B87":"#6F6890", "#E3EAF1":"#EAE5F7", "#4B5A68":"#4F466E",
  "#B9C6D4":"#B9B0D0", "#3E6EC4":"#5D3BD8", "#C9DCF1":"#D8CCF7", "#A3C2E8":"#B4A3EE",
  "#6E9AD9":"#8B6FE4", "#1F4BA0":"#4527B8", "#EDF1F5":"#F1EEF9", "#C2CCD6":"#CCC5DE",
@@ -35,7 +35,7 @@ def transform(s, yellow=False):
     s = s.replace(".movebox{background:var(--tint);padding:2.2mm 3.2mm;margin-top:2mm;font-size:8.4pt;line-height:1.4;}",
                   ".movebox{background:var(--tint);padding:2.4mm 3.4mm;margin-top:2mm;font-size:8.4pt;line-height:1.4;border-radius:2.2mm;}")
     s = re.sub(r'\.ibn\{[^}]*\}',
-               '.ibn{font-family:"Avenir Next",Arial,sans-serif;font-size:11pt;font-weight:700;color:#fff;background:#2251FF;width:6.6mm;height:6.6mm;flex:none;border-radius:50%;display:flex;align-items:center;justify-content:center;margin-top:0.4mm;}',
+               '.ibn{font-family:"Avenir Next",Arial,sans-serif;font-size:11pt;font-weight:700;color:#fff;background:#2E52FF;width:6.6mm;height:6.6mm;flex:none;border-radius:50%;display:flex;align-items:center;justify-content:center;margin-top:0.4mm;}',
                s, count=1)
     s = s.replace(".cov-art .c{width:14.8mm;height:9.2mm;border:0.26mm solid rgba(255,255,255,0.15);margin:-0.13mm;}",
                   ".cov-art .c{width:14.8mm;height:9.2mm;border:0.26mm solid rgba(255,255,255,0.15);margin:-0.13mm;border-radius:1mm;}")
