@@ -33,7 +33,27 @@ def transform(s, yellow=False):
     s = s.replace(".cbar{height:4.6mm;background:var(--navy);}",
                   ".cbar{height:4.6mm;background:var(--navy);border-radius:0 1.6mm 1.6mm 0;}")
     s = s.replace(".movebox{background:var(--tint);padding:2.2mm 3.2mm;margin-top:2mm;font-size:8.4pt;line-height:1.4;}",
-                  ".movebox{background:var(--tint);padding:2.4mm 3.4mm;margin-top:2mm;font-size:8.4pt;line-height:1.4;border-radius:2.2mm;}")
+                  ".movebox{background:var(--tint);padding:2.2mm 3.2mm;margin-top:2mm;font-size:8.4pt;line-height:1.4;border-radius:2.2mm;}")
+    # Charter/Avenir set wider than the navy fonts; reclaim vertical room on the
+    # three pages that run tight in the serif editions (benchmarks, jagged, knowledge).
+    s = s.replace(".brow{display:flex;align-items:flex-start;margin-bottom:1.15mm;}",
+                  ".brow{display:flex;align-items:flex-start;margin-bottom:0.85mm;}")
+    s = s.replace(".bgrp{font-size:7.6pt;font-weight:700;letter-spacing:0;text-transform:none;color:var(--blue);margin:1.3mm 0 0.9mm;}",
+                  ".bgrp{font-size:7.6pt;font-weight:700;letter-spacing:0;text-transform:none;color:var(--blue);margin:1.0mm 0 0.7mm;}")
+    s = s.replace('style="margin-right:53mm;margin-top:2.2mm;"',
+                  'style="margin-right:53mm;margin-top:2.2mm;font-size:7.6pt;line-height:1.36;"')
+    s = s.replace('<div class="fn" style="margin-right:53mm;">',
+                  '<div class="fn" style="margin-right:53mm;font-size:5.9pt;">')
+    s = s.replace('font-size:6.2pt;color:var(--gray);line-height:1.32;margin-top:1mm;',
+                  'font-size:5.8pt;color:var(--gray);line-height:1.3;margin-top:1mm;')
+    s = s.replace("<div class=\"fn\">¹Authors' estimate: theoretical coverage",
+                  "<div class=\"fn\" style=\"font-size:5.9pt;line-height:1.3;\">¹Authors' estimate: theoretical coverage")
+    s = s.replace('<div class="movebox sw" style="margin-top:1mm;"><span class="swlab">So what?</span>Stand up one governed',
+                  '<div class="movebox sw" style="margin-top:0.2mm;font-size:8.1pt;line-height:1.34;"><span class="swlab">So what?</span>Stand up one governed')
+    s = s.replace('<svg viewBox="0 0 720 322" style="width:66%;display:block;margin:-2.5mm auto 0;"',
+                  '<svg viewBox="0 0 720 322" style="width:58%;display:block;margin:-4mm auto 0;"')
+    s = s.replace('<div style="display:flex;gap:8mm;margin-top:3mm;">',
+                  '<div style="display:flex;gap:8mm;margin-top:1mm;font-size:8.7pt;">')
     s = re.sub(r'\.ibn\{[^}]*\}',
                '.ibn{font-family:"Avenir Next",Arial,sans-serif;font-size:11pt;font-weight:700;color:#fff;background:#2E52FF;width:6.6mm;height:6.6mm;flex:none;border-radius:50%;display:flex;align-items:center;justify-content:center;margin-top:0.4mm;}',
                s, count=1)
