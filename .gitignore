@@ -1,5 +1,5 @@
 dist/*.jpg
 *.bak
 .DS_Store
-*.jpg
-*.jpeg
+/*.jpg
+/*.jpeg
